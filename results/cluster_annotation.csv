@@ -1,0 +1,48 @@
+leiden,cell_type,top_set_score,margin,n_cells,top1,top2,top3,top4,top5,top6,top7,top8,top9,top10,sample_entropy_norm
+0,Endothelial,2.9995573,2.5032315,159304,Cldn5,Adgrl4,Ly6a,Pecam1,Fn1,Kdr,Igf1r,Pglyrp1,Acvrl1,Emcn,0.9882036570139413
+1,Excitatory neuron,2.3690364,2.4689744,12555,Neurod6,Cabp7,Cpne4,Epha4,Prdm8,Shisa6,Slc17a7,Cpne6,Bhlhe22,Sipa1l3,0.8137732638728172
+2,Unassigned,1.8833698,0.1512804,35345,Carmn,Inpp4b,Nr2f2,Cspg4,Cobll1,Car4,Ano1,Igf2,Gucy1a1,Emcn,0.9974248358514461
+3,Neuron (other),0.2873995,0.15684734,23372,Prox1,Bhlhe22,2010300C02Rik,Cpne6,Epha4,Plekha2,Prdm8,Pip5k1b,Tanc1,Slc44a5,0.7387160291292012
+4,VLMC-Fibroblast,3.8202069,1.058428,106657,Igf2,Dcn,Aldh1a2,Col1a1,Fn1,Fmod,Nr2f2,Slc13a4,Pdgfra,Cyp1b1,0.9960798341395354
+5,Endothelial,2.9608395,1.9526073,31835,Adgrl4,Ly6a,Cldn5,Pecam1,Kdr,Ppp1r1b,Fn1,Acvrl1,Emcn,Igf1r,0.9423047996679004
+6,Astrocyte,2.1991322,1.0796095,74795,Acsbg1,Slc39a12,Ntsr2,Aqp4,Rorb,Id2,Rfx4,Lcat,Hapln1,Egfr,0.9891943684583562
+7,Excitatory neuron,0.9091077,0.54712737,7921,Nwd2,Necab2,Nrp2,Kctd8,Cpne4,Gucy1a1,Slc17a6,Nrn1,Thsd7a,Vat1l,0.7254507026243788
+8,Excitatory neuron,1.8864603,1.6206826,54225,Slc17a6,Rims3,Nell1,Prox1,Clmn,Nrn1,Elavl2,Rnf152,Tanc1,Inpp4b,0.7591558016666687
+9,Microglia,3.186388,0.008725405,117367,Laptm5,Trem2,Cx3cr1,Cd53,Kctd12,Cd68,Aif1,Cd300c2,Siglech,Ikzf1,0.8897297047511268
+10,Astrocyte Gfap-high / qNSC,2.5046628,0.30810857,37422,Aqp4,Gfap,Igfbp5,Ntsr2,Rfx4,Acsbg1,Dkk3,Lcat,Slc39a12,Egfr,0.9486817267498785
+11,Microglia,3.1805365,0.89942837,41341,Laptm5,Cx3cr1,Trem2,Cd53,Siglech,Kctd12,Cd68,Cd300c2,Aif1,Tmem119,0.9808714615002402
+12,Inhibitory neuron,2.7011745,1.3965751,51149,Gad1,Rab3b,Elavl2,Gad2,Kcnmb2,Dner,Pvalb,Cacna2d2,Col19a1,Btbd11,0.9980734264122842
+13,Excitatory neuron,1.9202102,1.7244511,11235,Neurod6,Cpne6,Arhgap12,Epha4,Sipa1l3,Pou3f1,Gm2115,Wfs1,Cabp7,Sema3e,0.6673240219800303
+14,Excitatory neuron,2.0532265,1.9666295,110444,Rorb,Kcnh5,Plcxd2,Rims3,Nrn1,Satb2,Fhod3,Nell1,Prdm8,Epha4,0.9941277345614115
+15,Excitatory neuron,2.03917,1.3943217,72078,Neurod6,Dkk3,Slc17a7,Satb2,Hs3st2,Nrn1,Gfra2,Dpy19l1,Fhod3,Igfbp6,0.9987805062207148
+16,Excitatory neuron,2.0665903,1.3865228,77406,Garnl3,Dkk3,Tle4,Rprm,Slc17a7,Foxp2,Neurod6,Grik3,Gfra2,Hs3st2,0.9976176159635838
+17,Excitatory neuron,0.9381318,0.4426496,49042,Cpne4,Nrn1,Slc17a7,Dner,Nwd2,Cpne6,2010300C02Rik,Plcxd3,Rprm,Nrp2,0.9958479775422991
+18,Inhibitory neuron,2.9224453,1.0763682,28744,Gad1,Igf1,Dner,Gad2,Zfp536,Prox1,Necab1,Rasgrf2,Pip5k1b,Dlx2,0.9948930964306392
+19,Neuron (other),1.6042153,0.20683289,93574,Gad2,Gad1,Vat1l,Dner,Cacna2d2,Tmem255a,Tubb3,Elavl2,Rab3b,Plcxd3,0.9875182910499832
+20,Excitatory neuron,2.2267568,1.8902167,13010,Nxph3,Ccn2,Cplx3,Grik3,Satb2,Tle4,Sdk2,Neurod6,Cabp7,Pcsk5,0.9957294015456875
+21,Excitatory neuron,1.7650644,1.6277118,100177,Lamp5,Rasgrf2,Cux2,Calb1,Pdzrn3,Epha4,Igfbp6,Gucy1a1,Nrn1,Satb2,0.9970289459827758
+22,Striatal MSN,2.2119608,1.3021932,141891,Ppp1r1b,Penk,Pde7b,Meis2,Bcl11b,Necab2,Syt6,Strip2,Gad1,Gucy1a1,0.950810240837084
+23,Neuron (other),1.3121148,0.1885513,41230,Meis2,Gad2,Gad1,Vat1l,Wfs1,Meg3,Penk,Hpcal1,Cpne6,Dlx5,0.997155218329291
+24,Astrocyte,2.3588536,1.7253294,86039,Agt,Ntsr2,Slc39a12,Acsbg1,Aqp4,Rfx4,Egfr,Eva1a,Paqr6,Id2,0.9698215737112693
+25,Inhibitory neuron,2.9505825,1.5818397,16614,Pvalb,Gad2,Gad1,Nr2f2,Fign,Kcnmb2,Cdh13,Cacna2d2,Vat1l,Elavl4,0.7232631119839533
+26,OPC,3.376138,1.1168311,71305,Pdgfra,Olig1,Olig2,Cspg4,Gpr17,Gjc3,Sox10,Sema3d,Sema5b,Ascl1,0.994185328782391
+27,Oligodendrocyte,2.5920837,1.6332707,75058,Mag,Mog,Gjc3,Mbp,Olig1,Sox10,Opalin,Zfp536,Prox1,Dpy19l1,0.9050179869790457
+28,Oligodendrocyte,3.0379162,1.4175347,143352,Mog,Mag,Mbp,Gjc3,Olig1,Sox10,Opalin,Zfp536,Dpy19l1,Olig2,0.936903252965171
+29,Neuroblast,3.1371348,1.7205023,25726,Trpc4,Gad1,Gad2,Cacna2d2,Dner,Dlx2,Dlx5,Dlx1,Gfra2,Sp8,0.735082871312522
+30,Oligodendrocyte,2.3869178,1.6030314,47131,Mag,Mog,Gjc3,Mbp,Olig1,Dpy19l1,Sox10,Opalin,Zfp536,Olig2,0.9462805316358693
+31,Unassigned,1.5507702,0.17135179,22290,Gfap,Olig2,Dpy19l1,Pdgfra,Zfp536,Olig1,Sox10,Ttr,Gadd45a,Gjc3,0.4952888899391581
+32,Inhibitory neuron,2.0736945,0.87511766,12681,Dner,Elavl2,Gad2,Gad1,Cdh13,Cacna2d2,Cntnap4,Rab3b,Necab2,Chrm2,0.9664810664099456
+33,Astrocyte,2.1028163,1.0324627,41227,Acsbg1,Ntsr2,Slc39a12,Aqp4,Hapln1,Rfx4,Id2,Rorb,Dkk3,Meis2,0.9337540482483176
+34,Striatal MSN,1.9970015,1.270184,116970,Ppp1r1b,Pde7b,Meis2,Bcl11b,Syt6,Necab2,Strip2,Foxp2,Neto2,Gad1,0.9260405303838409
+35,Ependymal,3.934474,0.99645877,31150,Cd24a,Foxj1,Spag16,Rmst,Ttr,Aqp4,Rfx4,Lgals3,Plch1,Prph,0.946915044703579
+36,Excitatory neuron,1.0335625,0.44476402,61601,Slc17a6,Calb2,Rmst,Tmem255a,Vat1l,Tubb3,Dner,Meg3,Hpcal1,Tmem163,0.9558940242189604
+37,Excitatory neuron,1.9684973,1.5198768,17564,Fezf2,Parm1,Lamp5,Tox,Igfbp4,Bhlhe40,Ndst3,Htr1f,Elavl4,Pou3f1,0.998327391863206
+38,Oligodendrocyte,2.476433,1.3482935,22209,Mog,Mag,Gjc3,Mbp,Ppp1r1b,Opalin,Sox10,Olig1,Dpy19l1,Zfp536,0.9076452861730516
+39,Neuron (other),1.4471327,0.037821412,7741,Syt6,Dner,Gad2,Bcl11b,Meg3,Nrp2,Cpne4,Gad1,Foxp2,Mdga1,0.667161098308567
+40,Choroid plexus,4.71573,1.8145614,20559,Clic6,Igf2,Slc13a4,Ttr,Vat1l,Strip2,Pip5k1b,Foxj1,Rnf152,Spag16,0.8787520890527404
+41,Excitatory neuron,0.98857546,0.3157072,12053,Calb2,Ebf3,Slc17a6,Eps8,Rab3b,Nr2f2,Nrp2,Tubb3,Elavl2,Plch1,0.5885194670162865
+42,Excitatory neuron,2.2649415,1.7003055,3485,Cpne6,Slc17a7,Hpcal1,Nr2f2,Necab1,Bhlhe22,Cpne4,Rprm,Neurod6,Fezf2,0.2800491254306829
+43,Excitatory neuron,2.1884696,1.5644395,11145,Tmem163,Dner,Satb2,Tmem132d,Galnt14,Cux2,Cpne4,Neurod6,Nwd2,Slc17a7,0.990958853984889
+44,Excitatory neuron,2.517332,2.1059573,9584,Nxph3,Fezf2,Plcxd2,Neurod6,Vwc2l,Cpne4,Neto2,Rnf152,Stard5,Tox,0.997708195668106
+45,Excitatory neuron,1.3003172,0.39644498,2077,Nrep,Cbln1,Parm1,Thsd7a,Rspo1,Pvalb,Gfra2,Car4,Cpne6,Epha4,0.8159561705025837
+46,Excitatory neuron,2.6202962,2.283003,8032,Neurod6,Dkk3,Slc17a6,Nrep,Rnf152,Satb2,Pdzrn3,Nrn1,Nell1,Igfbp6,0.8148997137622708

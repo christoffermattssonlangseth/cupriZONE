@@ -1,0 +1,135 @@
+{
+ "Oligodendrocyte": [
+  "Mbp",
+  "Mog",
+  "Mag",
+  "Opalin",
+  "Gjc3"
+ ],
+ "OPC": [
+  "Pdgfra",
+  "Cspg4",
+  "Olig1",
+  "Olig2"
+ ],
+ "COP-NFOL": [
+  "Enpp6",
+  "Gpr17"
+ ],
+ "Astrocyte": [
+  "Aqp4",
+  "Gfap",
+  "Ntsr2",
+  "Slc39a12",
+  "Rfx4"
+ ],
+ "Microglia": [
+  "Cx3cr1",
+  "Tmem119",
+  "Siglech",
+  "Aif1",
+  "Laptm5",
+  "Spi1"
+ ],
+ "Microglia activated / DAM": [
+  "Trem2",
+  "Cd68",
+  "Lgals3",
+  "Spp1",
+  "Cybb",
+  "Igf1"
+ ],
+ "Endothelial": [
+  "Cldn5",
+  "Pecam1",
+  "Kdr",
+  "Ly6a",
+  "Emcn",
+  "Adgrl4",
+  "Cd93",
+  "Ecscr",
+  "Nostrin",
+  "Sox17",
+  "Acvrl1"
+ ],
+ "Pericyte-VSMC": [
+  "Acta2",
+  "Carmn",
+  "Pln"
+ ],
+ "VLMC-Fibroblast": [
+  "Dcn",
+  "Col1a1",
+  "Col6a1",
+  "Fmod",
+  "Fn1",
+  "Igfbp6",
+  "Cyp1b1",
+  "Aldh1a2"
+ ],
+ "Ependymal": [
+  "Foxj1",
+  "Trp73",
+  "Spag16"
+ ],
+ "Choroid plexus": [
+  "Ttr",
+  "Clic6"
+ ],
+ "Astrocyte Gfap-high / qNSC": [
+  "Gfap",
+  "Thbs4",
+  "Nes",
+  "Gli3"
+ ],
+ "NSC (activated)-TAP": [
+  "Ascl1",
+  "Egfr",
+  "Mki67",
+  "Rrm2",
+  "Pclaf",
+  "Hells",
+  "Hat1",
+  "Gsx2"
+ ],
+ "Neuroblast": [
+  "Dlx2",
+  "Dlx1",
+  "Sox11",
+  "Sp8",
+  "Sp9",
+  "Cd24a",
+  "Tubb3",
+  "Igfbpl1",
+  "Insm1"
+ ],
+ "Excitatory neuron": [
+  "Slc17a7",
+  "Satb2",
+  "Neurod6",
+  "Cux2",
+  "Rorb",
+  "Fezf2",
+  "Foxp2",
+  "Tle4",
+  "Slc17a6"
+ ],
+ "Inhibitory neuron": [
+  "Gad1",
+  "Gad2",
+  "Pvalb",
+  "Sst",
+  "Vip",
+  "Cort"
+ ],
+ "Striatal MSN": [
+  "Ppp1r1b",
+  "Penk",
+  "Pdyn"
+ ],
+ "T cell-lymphocyte": [
+  "Il7r",
+  "Trbc2",
+  "Ikzf1"
+ ]
+}

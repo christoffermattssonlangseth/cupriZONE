@@ -1,0 +1,7 @@
+data/
+logs/
+__pycache__/
+.DS_Store
+*.h5ad
+*.parquet
+results/cell_metadata_with_niches.csv.gz

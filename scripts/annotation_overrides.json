@@ -1,0 +1,5 @@
+{
+ "_comment": "Manual relabels applied by 03_niche.py on top of the automated marker scoring in 02_preprocess.py (leiden cluster -> cell_type). c2: Carmn/Inpp4b/Nr2f2/Cspg4 mural cells tied between Pericyte-VSMC and OPC because Cspg4 (NG2) is shared. c31: Gfap/Olig2/Dpy19l1/Pdgfra co-expressing cells almost exclusively in acute CupRap sections (sample entropy 0.5) = reactive astrocyte/OPC state of the demyelinated lesion (dense tissue, likely some segmentation spill-over).",
+ "2": "Pericyte-VSMC",
+ "31": "Lesion glia (Gfap+ Olig2+)"
+}
