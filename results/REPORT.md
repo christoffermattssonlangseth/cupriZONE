@@ -75,7 +75,7 @@ Clusters concentrated in few sections (normalised sample entropy < 0.8), i.e. co
 ![composition](figures/celltype_composition_per_sample.png)
 ![spatial](figures/spatial_celltype_all_sections.png)
 
-## 3. Niches (k = 6, silhouette-selected)
+## 3. Niches: k-means (k = 6, silhouette-selected)
 
 Neighbourhood composition = cell-type fractions among the 15 nearest neighbours within a section; MiniBatchKMeans, **k = 6**. Silhouette (30k-cell subsample) by k: k=5: 0.416, k=6: 0.417, k=7: 0.397, k=8: 0.334, k=9: 0.311, k=10: 0.320, k=11: 0.317, k=12: 0.344, k=13: 0.276, k=14: 0.315. Niches are named “dominant cell type | most enriched cell type”.
 
@@ -137,7 +137,73 @@ squidpy `nhood_enrichment` z-scores computed per section (15-NN graph, 200 permu
 
 ![nhood](niches/nhood_enrichment_by_condition.png)
 
-## 4. Niches (k = 12, forced)
+## 4. Niches: CellCharter (k = 8, stability-selected)
+
+CellCharter 0.3.5: Delaunay graph (long links removed), aggregate_neighbors n_layers=3 on 30 PCs, GaussianMixture; k selected by ClusterAutoK stability over (5, 15) with max_runs=3 on 200,000 cells; final GMM fitted on 500,000 cells and predicted on all. Niches are named “dominant cell type | most enriched cell type”.
+
+![stability](niches_cellcharter/autok_stability.png)
+
+| niche | cells | dominant (fraction) | most enriched (log2) |
+|---|---|---|---|
+| C0: Excitatory neuron | Astrocyte Gfap-high / qNSC | 81518 | Excitatory neuron (29 %), Neuron (other) (29 %), Astrocyte Gfap-high / qNSC (12 %) | Astrocyte Gfap-high / qNSC (+2.9), Neuron (other) (+2.0), Microglia (+0.3) |
+| C1: Excitatory neuron | Neuroblast | 553896 | Excitatory neuron (23 %), Neuron (other) (20 %), Oligodendrocyte (15 %) | Neuroblast (+2.0), Neuron (other) (+1.5), Astrocyte (+0.7) |
+| C2: Striatal MSN | Lesion glia (Gfap+ Olig2+) | 440435 | Striatal MSN (57 %), Astrocyte (8 %), Endothelial (8 %) | Striatal MSN (+2.4), Lesion glia (Gfap+ Olig2+) (+0.2), Microglia (-0.1) |
+| C3: Excitatory neuron | Inhibitory neuron | 281737 | Excitatory neuron (60 %), Endothelial (11 %), Inhibitory neuron (9 %) | Excitatory neuron (+1.2), Inhibitory neuron (+0.9), Pericyte-VSMC (+0.6) |
+| C4: Excitatory neuron | Inhibitory neuron | 353377 | Excitatory neuron (53 %), Oligodendrocyte (10 %), Endothelial (9 %) | Excitatory neuron (+1.0), Inhibitory neuron (+0.8), Endothelial (+0.1) |
+| C5: Excitatory neuron | Inhibitory neuron | 206426 | Excitatory neuron (60 %), Inhibitory neuron (10 %), Astrocyte (9 %) | Excitatory neuron (+1.2), Inhibitory neuron (+1.1), OPC (+0.4) |
+| C6: VLMC-Fibroblast | Choroid plexus | 239905 | VLMC-Fibroblast (38 %), Ependymal (12 %), Astrocyte (9 %) | Choroid plexus (+3.3), Ependymal (+3.2), VLMC-Fibroblast (+3.1) |
+| C7: Oligodendrocyte | Astrocyte Gfap-high / qNSC | 200410 | Oligodendrocyte (51 %), Microglia (23 %), Astrocyte Gfap-high / qNSC (8 %) | Astrocyte Gfap-high / qNSC (+2.2), Oligodendrocyte (+2.1), Microglia (+1.8) |
+
+![niche enrichment](niches_cellcharter/niche_celltype_enrichment_heatmap.png)
+![niche maps](niches_cellcharter/spatial_niches_all_sections.png)
+
+### Niche abundance by condition (k = 8)
+
+Per-section niche fractions compared between groups within each experiment (Welch t-test and Mann–Whitney on section-level fractions; n is small, so treat p-values as descriptive). Full table: `niches_cellcharter/niche_differential_abundance.csv`.
+
+**no_recovery: CupRap (n=3) vs Control (n=3)**
+
+| niche | % CupRap | % Control | log2FC | p Welch | p MWU |
+|---|---|---|---|---|---|
+| C7: Oligodendrocyte | Astrocyte Gfap-high / qNSC | 10.2 | 4.24 | 1.26 | 0.145 | 0.081 |
+| C1: Excitatory neuron | Neuroblast | 16.1 | 20.5 | -0.345 | 0.151 | 0.081 |
+| C0: Excitatory neuron | Astrocyte Gfap-high / qNSC | 0.09 | 0.13 | -0.528 | 0.232 | 0.19 |
+| C3: Excitatory neuron | Inhibitory neuron | 13.6 | 14.3 | -0.076 | 0.249 | 0.383 |
+| C5: Excitatory neuron | Inhibitory neuron | 7.09 | 7.61 | -0.103 | 0.303 | 0.383 |
+| C4: Excitatory neuron | Inhibitory neuron | 15.1 | 15.7 | -0.053 | 0.464 | 0.663 |
+| C6: VLMC-Fibroblast | Choroid plexus | 12.2 | 12.8 | -0.067 | 0.771 | 1 |
+| C2: Striatal MSN | Lesion glia (Gfap+ Olig2+) | 25.6 | 24.7 | 0.05 | 0.856 | 1 |
+
+**recovery: CupRap (n=2) vs Control (n=2)**
+
+| niche | % CupRap | % Control | log2FC | p Welch | p MWU |
+|---|---|---|---|---|---|
+| C5: Excitatory neuron | Inhibitory neuron | 7.16 | 7.93 | -0.146 | 0.051 | 0.245 |
+| C3: Excitatory neuron | Inhibitory neuron | 11.2 | 13.6 | -0.271 | 0.052 | 0.245 |
+| C7: Oligodendrocyte | Astrocyte Gfap-high / qNSC | 10.8 | 4.21 | 1.35 | 0.053 | 0.245 |
+| C4: Excitatory neuron | Inhibitory neuron | 15.4 | 16.6 | -0.112 | 0.122 | 0.245 |
+| C6: VLMC-Fibroblast | Choroid plexus | 7.17 | 9.32 | -0.377 | 0.182 | 0.245 |
+| C0: Excitatory neuron | Astrocyte Gfap-high / qNSC | 0.13 | 0.12 | 0.103 | 0.405 | 0.699 |
+| C1: Excitatory neuron | Neuroblast | 15 | 15.1 | -0.017 | 0.972 | 1 |
+| C2: Striatal MSN | Lesion glia (Gfap+ Olig2+) | 33.2 | 33.1 | 0.005 | 0.978 | 1 |
+
+**infusion: OSM_infused (n=3) vs BSA_infused (n=6)**
+
+| niche | % OSM_infused | % BSA_infused | log2FC | p Welch | p MWU |
+|---|---|---|---|---|---|
+| C7: Oligodendrocyte | Astrocyte Gfap-high / qNSC | 11.2 | 8.46 | 0.406 | 0.001 | 0.028 |
+| C5: Excitatory neuron | Inhibitory neuron | 7.89 | 11.5 | -0.543 | 0.005 | 0.028 |
+| C6: VLMC-Fibroblast | Choroid plexus | 9.97 | 9.23 | 0.111 | 0.051 | 0.156 |
+| C0: Excitatory neuron | Astrocyte Gfap-high / qNSC | 7.92 | 6.39 | 0.31 | 0.083 | 0.366 |
+| C3: Excitatory neuron | Inhibitory neuron | 9.35 | 11.2 | -0.257 | 0.224 | 0.156 |
+| C4: Excitatory neuron | Inhibitory neuron | 14.1 | 14.5 | -0.038 | 0.305 | 0.519 |
+| C1: Excitatory neuron | Neuroblast | 30.7 | 30.1 | 0.024 | 0.641 | 0.897 |
+| C2: Striatal MSN | Lesion glia (Gfap+ Olig2+) | 8.91 | 8.62 | 0.047 | 0.771 | 0.519 |
+
+![niche abundance](niches_cellcharter/niche_abundance_per_sample.png)
+![niche log2FC](niches_cellcharter/niche_log2fc_by_experiment.png)
+
+## 5. Niches: k-means (k = 12, forced)
 
 Neighbourhood composition = cell-type fractions among the 15 nearest neighbours within a section; MiniBatchKMeans, **k = 12**. Silhouette (30k-cell subsample) by k: k=5: 0.416, k=6: 0.417, k=7: 0.397, k=8: 0.334, k=9: 0.311, k=10: 0.320, k=11: 0.317, k=12: 0.344, k=13: 0.276, k=14: 0.315. Niches are named “dominant cell type | most enriched cell type”.
 
@@ -217,7 +283,7 @@ Per-section niche fractions compared between groups within each experiment (Welc
 ![niche abundance](niches_k12/niche_abundance_per_sample.png)
 ![niche log2FC](niches_k12/niche_log2fc_by_experiment.png)
 
-## 5. Cell-type composition by condition
+## 6. Cell-type composition by condition
 
 ### no_recovery
 

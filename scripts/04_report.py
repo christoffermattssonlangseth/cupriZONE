@@ -68,17 +68,25 @@ niche_dirs = sorted(glob.glob(f"{RES}/niches*"))
 sec = 3
 for N in niche_dirs:
     tag = os.path.basename(N).replace("niches", "")
-    sil = pd.read_csv(f"{N}/kmeans_silhouette.csv", index_col=0)
+    sil = pd.read_csv(f"{N}/kmeans_silhouette.csv", index_col=0) if os.path.exists(f"{N}/kmeans_silhouette.csv") else None
     enr = pd.read_csv(f"{N}/niche_celltype_log2enrichment.csv", index_col=0)
     frac = pd.read_csv(f"{N}/niche_celltype_fraction.csv", index_col=0)
     nfrac = pd.read_csv(f"{N}/niche_fraction_per_sample.csv", index_col=0)
     da = pd.read_csv(f"{N}/niche_differential_abundance.csv")
     k = len(enr)
-    w(f"## {sec}. Niches (k = {k}{', forced' if tag else ', silhouette-selected'})\n"); sec += 1
-    w(f"Neighbourhood composition = cell-type fractions among the 15 nearest neighbours within a section; "
-      f"MiniBatchKMeans, **k = {k}**. Silhouette (30k-cell subsample) by k: "
-      + ", ".join(f"k={i}: {v:.3f}" for i, v in sil.silhouette.items())
-      + ". Niches are named “dominant cell type | most enriched cell type”.\n")
+    mp = f"{N}/method.json"
+    if os.path.exists(mp):
+        method = json.load(open(mp))
+        w(f"## {sec}. Niches: CellCharter (k = {k}{', forced' if method.get('forced') else ', stability-selected'})\n"); sec += 1
+        w(method["method"] + ". Niches are named “dominant cell type | most enriched cell type”.\n")
+        if os.path.exists(f"{N}/autok_stability.png"):
+            w(f"![stability]({os.path.basename(N)}/autok_stability.png)\n")
+    else:
+        w(f"## {sec}. Niches: k-means (k = {k}{', forced' if tag else ', silhouette-selected'})\n"); sec += 1
+        w(f"Neighbourhood composition = cell-type fractions among the 15 nearest neighbours within a section; "
+          f"MiniBatchKMeans, **k = {k}**. Silhouette (30k-cell subsample) by k: "
+          + ", ".join(f"k={i}: {v:.3f}" for i, v in sil.silhouette.items())
+          + ". Niches are named “dominant cell type | most enriched cell type”.\n")
     rows = []
     for n, r in enr.iterrows():
         top = r.sort_values(ascending=False); fr = frac.loc[n].sort_values(ascending=False)

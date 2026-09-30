@@ -23,7 +23,11 @@ scripts/01_download_geo.sh   cherry-pick files from GEO FTP into data/geo/<sampl
 scripts/02_preprocess.py     load, QC, normalise, PCA, kNN, Leiden, marker annotation, UMAP, figures
 scripts/03_niche.py          spatial kNN graph, neighbourhood composition, k-means niches, enrichment,
                              abundance contrasts, squidpy neighbourhood enrichment, spatial maps
-scripts/run_pipeline.sh      runs 02 then 03 sequentially with logs/
+scripts/05_cellcharter.py    CellCharter niches: Delaunay graph, 3-layer neighbourhood aggregation of PCA, GMM,
+                             k by ClusterAutoK stability (subsample), final fit on 500k cells, predict all
+scripts/niche_downstream.py  shared niche outputs (enrichment, abundance/contrasts, spatial maps) for 03 and 05
+scripts/run_pipeline.sh      runs 02 (if no checkpoint), 02b, 03 (k auto + k=12), 04
+scripts/run_cellcharter.sh   runs 05, then 03 and 04 again
 scripts/viz.py               shared palette / matplotlib chrome
 ```
 
@@ -42,10 +46,11 @@ Compute runs on the analysis Mac (`christoffer@100.115.223.38`, env `~/miniconda
 
 - `REPORT.md` — full report: QC table, annotation, niches at k=6 (silhouette-selected) and k=12 (forced, finer), condition contrasts, composition tables.
 - `figures/` — QC violins, UMAP (120k subsample), marker dotplot, composition bars, spatial cell-type maps.
+- `niches_cellcharter/` — CellCharter GMM niches (k=8 by stability), same outputs plus `autok_stability.png`, `method.json`.
 - `niches/` (k=6) and `niches_k12/` — enrichment heatmap, spatial niche maps, abundance per section, log2FC dot charts,
   differential abundance CSV, squidpy neighbourhood-enrichment z-scores (per section + condition means, k=6 dir only).
 - On the remote only (too large for this disk): `results/xenium_all.h5ad` (2.36 M cells; obs has `leiden`, `cell_type`,
-  `niche`, `niche_k12`; X = log-normalised, `layers["counts"]`, `obsm["X_pca"|"spatial"]`, `obsp["connectivities"]`),
+  `niche`, `niche_k12`, `niche_cc`; X = log-normalised, `layers["counts"]`, `obsm["X_pca"|"spatial"]`, `obsp["connectivities"]`),
   `results/cell_metadata_with_niches.csv.gz`, `results/niches*/neighbourhood_composition.parquet`.
 
 ## Pipeline notes
