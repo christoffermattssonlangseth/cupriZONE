@@ -1,0 +1,165 @@
+experiment,condition,region,cell_type,n,pct_crh_pos,pct_crh_ge2,mean_crh
+infusion,BSA_infused,cortex,Astrocyte,18731,1.5589130318722972,0.2028722438737921,0.018205114
+infusion,BSA_infused,cortex,Inhibitory neuron,24328,13.683821111476488,9.149950674120355,0.5857859
+infusion,BSA_infused,cortex,Lesion glia (Gfap+ Olig2+),53,0.0,0.0,0.0
+infusion,BSA_infused,cortex,Microglia,9388,1.5551768214742225,0.2982530890498509,0.021090753
+infusion,BSA_infused,cortex,OPC,7475,1.5117056856187292,0.3076923076923077,0.021672241
+infusion,BSA_infused,cortex,Oligodendrocyte,19352,1.6897478296816866,0.3927242662257131,0.025888797
+infusion,BSA_infused,cortex,Striatal MSN,21,9.523809523809524,9.523809523809524,0.3809524
+infusion,BSA_infused,other,Astrocyte,35903,1.4594880650642008,0.35373088599838454,0.022644347
+infusion,BSA_infused,other,Inhibitory neuron,13999,2.19301378669905,0.8500607186227588,0.057075504
+infusion,BSA_infused,other,Lesion glia (Gfap+ Olig2+),444,0.45045045045045046,0.45045045045045046,0.011261261
+infusion,BSA_infused,other,Microglia,10580,1.3043478260869565,0.28355387523629494,0.021833649
+infusion,BSA_infused,other,OPC,10555,1.6485078162008528,0.5210800568450971,0.031927995
+infusion,BSA_infused,other,Oligodendrocyte,46358,1.0936623667975323,0.31494024763794815,0.020276975
+infusion,BSA_infused,other,Striatal MSN,925,4.864864864864865,2.5945945945945943,0.18378378
+infusion,BSA_infused,striatum (CPu),Astrocyte,4400,1.4545454545454546,0.20454545454545456,0.018636364
+infusion,BSA_infused,striatum (CPu),Inhibitory neuron,1595,2.445141065830721,0.5642633228840125,0.038871475
+infusion,BSA_infused,striatum (CPu),Lesion glia (Gfap+ Olig2+),15,0.0,0.0,0.0
+infusion,BSA_infused,striatum (CPu),Microglia,2009,1.7421602787456445,0.34843205574912894,0.022399204
+infusion,BSA_infused,striatum (CPu),OPC,1495,1.8729096989966554,0.6020066889632106,0.03277592
+infusion,BSA_infused,striatum (CPu),Oligodendrocyte,7112,0.857705286839145,0.26715410573678294,0.016169854
+infusion,BSA_infused,striatum (CPu),Striatal MSN,36017,4.747758003165172,2.8070078018713387,0.16717106
+infusion,BSA_infused,white matter / lesion,Astrocyte,3047,0.2297341647522153,0.0,0.0022973416
+infusion,BSA_infused,white matter / lesion,Inhibitory neuron,90,10.0,8.88888888888889,0.3888889
+infusion,BSA_infused,white matter / lesion,Lesion glia (Gfap+ Olig2+),67,2.9850746268656714,0.0,0.029850746
+infusion,BSA_infused,white matter / lesion,Microglia,3520,0.2840909090909091,0.0,0.0028409092
+infusion,BSA_infused,white matter / lesion,OPC,2518,0.4368546465448769,0.03971405877680699,0.004765687
+infusion,BSA_infused,white matter / lesion,Oligodendrocyte,44432,0.2295642779978394,0.002250630176449406,0.002318149
+infusion,BSA_infused,white matter / lesion,Striatal MSN,2,0.0,0.0,0.0
+infusion,OSM_infused,cortex,Astrocyte,6747,1.3042833852082407,0.1630354231510301,0.014821402
+infusion,OSM_infused,cortex,Inhibitory neuron,10495,13.616007622677465,9.090042877560743,0.51862794
+infusion,OSM_infused,cortex,Lesion glia (Gfap+ Olig2+),71,4.225352112676056,0.0,0.04225352
+infusion,OSM_infused,cortex,Microglia,6658,1.2766596575548212,0.2553319315109642,0.018173626
+infusion,OSM_infused,cortex,OPC,3479,2.098304110376545,0.3449267030755964,0.02931877
+infusion,OSM_infused,cortex,Oligodendrocyte,12418,1.7716218392655823,0.3382187147688839,0.023916895
+infusion,OSM_infused,cortex,Striatal MSN,8,0.0,0.0,0.0
+infusion,OSM_infused,other,Astrocyte,18279,1.6466983970676734,0.27900869850648286,0.021445375
+infusion,OSM_infused,other,Inhibitory neuron,8507,1.7867638415422593,0.6817914658516516,0.047490302
+infusion,OSM_infused,other,Lesion glia (Gfap+ Olig2+),447,2.013422818791946,1.1185682326621924,0.06935123
+infusion,OSM_infused,other,Microglia,15591,1.244307613366686,0.24373035725739212,0.017317683
+infusion,OSM_infused,other,OPC,6805,2.0279206465833943,0.45554739162380603,0.033357825
+infusion,OSM_infused,other,Oligodendrocyte,29809,1.6236707034788151,0.39920829279747727,0.025093094
+infusion,OSM_infused,other,Striatal MSN,627,11.802232854864434,8.61244019138756,0.5677831
+infusion,OSM_infused,striatum (CPu),Astrocyte,2291,1.6586643387167175,0.5237887385421214,0.025752947
+infusion,OSM_infused,striatum (CPu),Inhibitory neuron,819,3.785103785103785,1.098901098901099,0.057387058
+infusion,OSM_infused,striatum (CPu),Lesion glia (Gfap+ Olig2+),37,0.0,0.0,0.0
+infusion,OSM_infused,striatum (CPu),Microglia,1631,1.471489883507051,0.3678724708767627,0.019619865
+infusion,OSM_infused,striatum (CPu),OPC,986,1.9269776876267748,0.4056795131845842,0.027383367
+infusion,OSM_infused,striatum (CPu),Oligodendrocyte,4700,0.9361702127659575,0.2553191489361702,0.0148936175
+infusion,OSM_infused,striatum (CPu),Striatal MSN,21134,4.045613703037759,2.294880287688086,0.13565817
+infusion,OSM_infused,white matter / lesion,Astrocyte,2164,0.6007393715341959,0.0,0.006007394
+infusion,OSM_infused,white matter / lesion,Inhibitory neuron,342,7.017543859649122,3.216374269005848,0.12865497
+infusion,OSM_infused,white matter / lesion,Lesion glia (Gfap+ Olig2+),164,0.6097560975609756,0.0,0.0060975607
+infusion,OSM_infused,white matter / lesion,Microglia,7672,0.4301355578727841,0.013034410844629822,0.0044317
+infusion,OSM_infused,white matter / lesion,OPC,2661,0.7515971439308531,0.11273957158962795,0.010146561
+infusion,OSM_infused,white matter / lesion,Oligodendrocyte,31479,0.3843832396200642,0.003176720988595572,0.0039073667
+no_recovery,Control,cortex,Astrocyte,10136,3.0978689818468825,0.3749013417521705,0.035615627
+no_recovery,Control,cortex,Inhibitory neuron,10686,17.94871794871795,12.988957514504959,1.0959198
+no_recovery,Control,cortex,Lesion glia (Gfap+ Olig2+),7,0.0,0.0,0.0
+no_recovery,Control,cortex,Microglia,4482,3.413654618473896,0.4908522980812137,0.044176705
+no_recovery,Control,cortex,OPC,3164,3.697850821744627,0.7269279393173199,0.048672568
+no_recovery,Control,cortex,Oligodendrocyte,10218,3.493834409864944,0.6850655705617538,0.05412018
+no_recovery,Control,cortex,Striatal MSN,4,25.0,0.0,0.25
+no_recovery,Control,other,Astrocyte,14008,3.191033695031411,0.46402055968018274,0.039905768
+no_recovery,Control,other,Inhibitory neuron,958,5.949895615866389,2.7139874739039667,0.18580376
+no_recovery,Control,other,Lesion glia (Gfap+ Olig2+),74,5.405405405405405,2.7027027027027026,0.10810811
+no_recovery,Control,other,Microglia,3393,3.9493073975832598,0.6483937518420276,0.0530504
+no_recovery,Control,other,OPC,3693,3.9805036555645814,0.7040346601678852,0.054427296
+no_recovery,Control,other,Oligodendrocyte,13530,2.9046563192904653,0.5543237250554324,0.044641536
+no_recovery,Control,other,Striatal MSN,731,11.901504787961697,7.934336525307797,0.6798906
+no_recovery,Control,striatum (CPu),Astrocyte,6722,1.5322820589110384,0.1487652484379649,0.018893186
+no_recovery,Control,striatum (CPu),Inhibitory neuron,1900,6.473684210526316,1.8421052631578945,0.09894737
+no_recovery,Control,striatum (CPu),Lesion glia (Gfap+ Olig2+),37,0.0,0.0,0.0
+no_recovery,Control,striatum (CPu),Microglia,3022,2.018530774321641,0.13236267372600927,0.023163468
+no_recovery,Control,striatum (CPu),OPC,1787,2.9099048684946838,0.7274762171236709,0.044767767
+no_recovery,Control,striatum (CPu),Oligodendrocyte,8243,1.4436491568603664,0.18197258279752515,0.018318573
+no_recovery,Control,striatum (CPu),Striatal MSN,47190,4.384403475312566,2.220809493536766,0.1717313
+no_recovery,Control,white matter / lesion,Astrocyte,751,1.8641810918774968,0.0,0.01864181
+no_recovery,Control,white matter / lesion,Inhibitory neuron,3,33.33333333333333,33.33333333333333,1.3333334
+no_recovery,Control,white matter / lesion,Lesion glia (Gfap+ Olig2+),29,0.0,0.0,0.0
+no_recovery,Control,white matter / lesion,Microglia,678,1.4749262536873156,0.0,0.0147492625
+no_recovery,Control,white matter / lesion,OPC,539,1.855287569573284,0.0,0.018552875
+no_recovery,Control,white matter / lesion,Oligodendrocyte,10212,0.6658832745789268,0.009792401096748922,0.006756757
+no_recovery,CupRap,cortex,Astrocyte,14208,3.681024774774775,0.950168918918919,0.06390766
+no_recovery,CupRap,cortex,Inhibitory neuron,13352,17.667765128819653,12.679748352306772,0.89492214
+no_recovery,CupRap,cortex,Lesion glia (Gfap+ Olig2+),2214,6.9557362240289065,2.9810298102981028,0.18066847
+no_recovery,CupRap,cortex,Microglia,7166,2.860731230812169,0.4325983812447669,0.036980186
+no_recovery,CupRap,cortex,OPC,3569,3.4743625665452504,0.7284953768562623,0.05239563
+no_recovery,CupRap,cortex,Oligodendrocyte,710,7.746478873239436,2.9577464788732395,0.16197184
+no_recovery,CupRap,cortex,Striatal MSN,7,0.0,0.0,0.0
+no_recovery,CupRap,other,Astrocyte,13427,4.215386906978477,0.8043494451478365,0.05771952
+no_recovery,CupRap,other,Inhibitory neuron,1084,6.4575645756457565,2.3985239852398523,0.1605166
+no_recovery,CupRap,other,Lesion glia (Gfap+ Olig2+),7113,9.011668775481512,4.442569942359061,0.2584001
+no_recovery,CupRap,other,Microglia,5425,3.834101382488479,0.5898617511520737,0.047741935
+no_recovery,CupRap,other,OPC,3847,5.01689628281778,1.0657655315830517,0.073563814
+no_recovery,CupRap,other,Oligodendrocyte,1485,4.377104377104377,1.2794612794612794,0.074074075
+no_recovery,CupRap,other,Striatal MSN,866,13.97228637413395,7.505773672055427,0.48267898
+no_recovery,CupRap,striatum (CPu),Astrocyte,8655,1.998844598497978,0.30040439052570767,0.024956672
+no_recovery,CupRap,striatum (CPu),Inhibitory neuron,2717,6.367316893632684,1.3249907986750091,0.09532572
+no_recovery,CupRap,striatum (CPu),Lesion glia (Gfap+ Olig2+),4392,3.9389799635701275,1.5027322404371584,0.09335155
+no_recovery,CupRap,striatum (CPu),Microglia,5860,1.9624573378839592,0.27303754266211605,0.025597269
+no_recovery,CupRap,striatum (CPu),OPC,2246,3.0276046304541406,0.3561887800534283,0.041406944
+no_recovery,CupRap,striatum (CPu),Oligodendrocyte,209,3.827751196172249,1.4354066985645932,0.057416268
+no_recovery,CupRap,striatum (CPu),Striatal MSN,62923,4.187657931122165,1.8625939640513007,0.13634124
+no_recovery,CupRap,white matter / lesion,Astrocyte,1693,1.1813349084465445,0.11813349084465447,0.012994684
+no_recovery,CupRap,white matter / lesion,Inhibitory neuron,95,13.684210526315791,8.421052631578947,0.4
+no_recovery,CupRap,white matter / lesion,Lesion glia (Gfap+ Olig2+),6848,3.7091121495327104,1.6793224299065421,0.095794395
+no_recovery,CupRap,white matter / lesion,Microglia,23299,0.9742907420919353,0.06438044551268295,0.010987596
+no_recovery,CupRap,white matter / lesion,OPC,3175,1.2283464566929132,0.31496062992125984,0.017007874
+no_recovery,CupRap,white matter / lesion,Oligodendrocyte,3960,1.8181818181818181,0.3787878787878788,0.027020203
+no_recovery,CupRap,white matter / lesion,Striatal MSN,56,5.357142857142857,1.7857142857142856,0.071428575
+recovery,Control,cortex,Astrocyte,7483,3.0469063209942537,0.5211813443805959,0.037551783
+recovery,Control,cortex,Inhibitory neuron,7264,16.17566079295154,10.930616740088105,0.69369495
+recovery,Control,cortex,Lesion glia (Gfap+ Olig2+),5,20.0,0.0,0.2
+recovery,Control,cortex,Microglia,2888,3.358725761772853,0.6232686980609419,0.04466759
+recovery,Control,cortex,OPC,2009,4.230960676953709,0.8959681433549029,0.06421105
+recovery,Control,cortex,Oligodendrocyte,7189,3.157601891779107,0.6259563221588539,0.047850884
+recovery,Control,other,Astrocyte,7605,4.523339907955293,1.0387902695595002,0.06364234
+recovery,Control,other,Inhibitory neuron,359,4.735376044568245,1.9498607242339834,0.08913649
+recovery,Control,other,Lesion glia (Gfap+ Olig2+),36,5.555555555555555,0.0,0.055555556
+recovery,Control,other,Microglia,1722,3.077816492450639,0.7549361207897793,0.044715445
+recovery,Control,other,OPC,1778,5.005624296962879,1.3498312710911136,0.070866145
+recovery,Control,other,Oligodendrocyte,6231,3.6912213127908844,1.0752688172043012,0.059220027
+recovery,Control,other,Striatal MSN,571,8.93169877408056,5.779334500875657,0.33450088
+recovery,Control,striatum (CPu),Astrocyte,6059,1.5679154976068657,0.2970787258623535,0.021455687
+recovery,Control,striatum (CPu),Inhibitory neuron,1851,3.349540788762831,0.8103727714748784,0.051863857
+recovery,Control,striatum (CPu),Lesion glia (Gfap+ Olig2+),13,0.0,0.0,0.0
+recovery,Control,striatum (CPu),Microglia,2423,1.8984729673957903,0.20635575732562939,0.021048287
+recovery,Control,striatum (CPu),OPC,1529,2.5506867233485937,0.5232177894048398,0.03204709
+recovery,Control,striatum (CPu),Oligodendrocyte,6211,1.239735952342618,0.28980840444372885,0.016422477
+recovery,Control,striatum (CPu),Striatal MSN,44151,3.2796539149736135,1.4790151978437633,0.08969219
+recovery,Control,white matter / lesion,Astrocyte,78,3.8461538461538463,0.0,0.03846154
+recovery,Control,white matter / lesion,Lesion glia (Gfap+ Olig2+),1,0.0,0.0,0.0
+recovery,Control,white matter / lesion,Microglia,301,0.33222591362126247,0.0,0.003322259
+recovery,Control,white matter / lesion,OPC,285,2.1052631578947367,0.0,0.021052632
+recovery,Control,white matter / lesion,Oligodendrocyte,7431,0.7805140627102678,0.026914278024491995,0.008074284
+recovery,Control,white matter / lesion,Striatal MSN,1,0.0,0.0,0.0
+recovery,CupRap,cortex,Astrocyte,6584,3.341433778857837,0.531591737545565,0.04070474
+recovery,CupRap,cortex,Inhibitory neuron,6571,16.89240602647999,11.794247450920713,0.6816314
+recovery,CupRap,cortex,Lesion glia (Gfap+ Olig2+),30,0.0,0.0,0.0
+recovery,CupRap,cortex,Microglia,6868,3.5381479324403027,0.6552125800815376,0.04775772
+recovery,CupRap,cortex,OPC,1913,3.5023523261892313,0.5227391531625719,0.04338735
+recovery,CupRap,cortex,Oligodendrocyte,2383,2.517834662190516,0.5874947545111204,0.03315149
+recovery,CupRap,cortex,Striatal MSN,1,0.0,0.0,0.0
+recovery,CupRap,other,Astrocyte,6745,4.729429206819867,0.9191994069681245,0.062416606
+recovery,CupRap,other,Inhibitory neuron,314,4.140127388535031,1.5923566878980893,0.06369427
+recovery,CupRap,other,Lesion glia (Gfap+ Olig2+),98,2.0408163265306123,0.0,0.020408163
+recovery,CupRap,other,Microglia,4284,3.968253968253968,0.700280112044818,0.056489263
+recovery,CupRap,other,OPC,1970,4.365482233502538,1.4720812182741116,0.07715736
+recovery,CupRap,other,Oligodendrocyte,3836,3.962460896767466,1.251303441084463,0.062043797
+recovery,CupRap,other,Striatal MSN,652,7.208588957055214,3.834355828220859,0.2791411
+recovery,CupRap,striatum (CPu),Astrocyte,5192,1.9260400616332818,0.5007704160246533,0.030046225
+recovery,CupRap,striatum (CPu),Inhibitory neuron,1642,3.227771010962241,0.42630937880633374,0.03775883
+recovery,CupRap,striatum (CPu),Lesion glia (Gfap+ Olig2+),56,1.7857142857142856,0.0,0.017857144
+recovery,CupRap,striatum (CPu),Microglia,11570,1.1581676750216077,0.3025064822817632,0.01624892
+recovery,CupRap,striatum (CPu),OPC,2031,1.674052191038897,0.34465780403741997,0.02314131
+recovery,CupRap,striatum (CPu),Oligodendrocyte,3416,1.5807962529274004,0.5562060889929743,0.031323183
+recovery,CupRap,striatum (CPu),Striatal MSN,42562,4.513415722945351,2.2978243503594755,0.13490908
+recovery,CupRap,white matter / lesion,Astrocyte,1153,1.9080659150043366,0.26019080659150046,0.025151778
+recovery,CupRap,white matter / lesion,Inhibitory neuron,217,11.981566820276496,6.912442396313365,0.29953918
+recovery,CupRap,white matter / lesion,Lesion glia (Gfap+ Olig2+),39,2.564102564102564,0.0,0.025641026
+recovery,CupRap,white matter / lesion,Microglia,18278,0.7823613086770981,0.12036327825801509,0.010176168
+recovery,CupRap,white matter / lesion,OPC,1796,0.8908685968819599,0.16703786191536749,0.0105790645
+recovery,CupRap,white matter / lesion,Oligodendrocyte,6826,0.7031936712569586,0.02929973630237328,0.007324934
+recovery,CupRap,white matter / lesion,Striatal MSN,412,2.1844660194174756,0.9708737864077669,0.0631068

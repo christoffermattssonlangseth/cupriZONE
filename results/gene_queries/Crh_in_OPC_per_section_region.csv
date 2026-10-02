@@ -1,0 +1,77 @@
+experiment,condition,sample_id,region,n_opc,n_crh_pos,pct
+infusion,BSA_infused,Inf_BSA1,cortex,1371,16,1.1670313639679066
+infusion,BSA_infused,Inf_BSA1,other,1830,42,2.2950819672131146
+infusion,BSA_infused,Inf_BSA1,striatum (CPu),320,9,2.8125
+infusion,BSA_infused,Inf_BSA1,white matter / lesion,451,0,0.0
+infusion,BSA_infused,Inf_BSA2,cortex,1197,20,1.670843776106934
+infusion,BSA_infused,Inf_BSA2,other,1721,27,1.568855316676351
+infusion,BSA_infused,Inf_BSA2,striatum (CPu),295,3,1.0169491525423728
+infusion,BSA_infused,Inf_BSA2,white matter / lesion,373,0,0.0
+infusion,BSA_infused,Inf_BSA3,cortex,1129,16,1.41718334809566
+infusion,BSA_infused,Inf_BSA3,other,1766,35,1.9818799546998869
+infusion,BSA_infused,Inf_BSA3,striatum (CPu),285,8,2.807017543859649
+infusion,BSA_infused,Inf_BSA3,white matter / lesion,379,3,0.79155672823219
+infusion,BSA_infused,Inf_BSA4,cortex,1127,15,1.3309671694764862
+infusion,BSA_infused,Inf_BSA4,other,1716,11,0.641025641025641
+infusion,BSA_infused,Inf_BSA4,striatum (CPu),299,3,1.0033444816053512
+infusion,BSA_infused,Inf_BSA4,white matter / lesion,406,2,0.49261083743842365
+infusion,BSA_infused,Inf_BSA5,cortex,1293,21,1.6241299303944314
+infusion,BSA_infused,Inf_BSA5,other,1781,27,1.5160022459292533
+infusion,BSA_infused,Inf_BSA5,striatum (CPu),153,4,2.6143790849673203
+infusion,BSA_infused,Inf_BSA5,white matter / lesion,451,3,0.6651884700665188
+infusion,BSA_infused,Inf_BSA6,cortex,1358,25,1.8409425625920472
+infusion,BSA_infused,Inf_BSA6,other,1741,32,1.8380241240666284
+infusion,BSA_infused,Inf_BSA6,striatum (CPu),143,1,0.6993006993006993
+infusion,BSA_infused,Inf_BSA6,white matter / lesion,458,3,0.6550218340611353
+infusion,OSM_infused,Inf_OSM1,cortex,1276,19,1.489028213166144
+infusion,OSM_infused,Inf_OSM1,other,2350,43,1.8297872340425532
+infusion,OSM_infused,Inf_OSM1,striatum (CPu),345,7,2.0289855072463765
+infusion,OSM_infused,Inf_OSM1,white matter / lesion,897,5,0.5574136008918618
+infusion,OSM_infused,Inf_OSM2,cortex,1151,26,2.2589052997393573
+infusion,OSM_infused,Inf_OSM2,other,2183,43,1.9697663765460376
+infusion,OSM_infused,Inf_OSM2,striatum (CPu),332,3,0.9036144578313252
+infusion,OSM_infused,Inf_OSM2,white matter / lesion,873,11,1.2600229095074456
+infusion,OSM_infused,Inf_OSM3,cortex,1052,28,2.6615969581749046
+infusion,OSM_infused,Inf_OSM3,other,2272,52,2.2887323943661975
+infusion,OSM_infused,Inf_OSM3,striatum (CPu),309,9,2.912621359223301
+infusion,OSM_infused,Inf_OSM3,white matter / lesion,891,4,0.44893378226711567
+no_recovery,Control,NoRecov_Cntl1,cortex,1172,48,4.09556313993174
+no_recovery,Control,NoRecov_Cntl1,other,1633,64,3.919167176974893
+no_recovery,Control,NoRecov_Cntl1,striatum (CPu),549,10,1.8214936247723135
+no_recovery,Control,NoRecov_Cntl1,white matter / lesion,188,5,2.6595744680851063
+no_recovery,Control,NoRecov_Cntl2,cortex,983,49,4.984740590030519
+no_recovery,Control,NoRecov_Cntl2,other,1010,46,4.554455445544554
+no_recovery,Control,NoRecov_Cntl2,striatum (CPu),551,14,2.540834845735027
+no_recovery,Control,NoRecov_Cntl2,white matter / lesion,123,1,0.8130081300813009
+no_recovery,Control,NoRecov_Cntl3,cortex,1009,20,1.9821605550049552
+no_recovery,Control,NoRecov_Cntl3,other,1050,37,3.5238095238095237
+no_recovery,Control,NoRecov_Cntl3,striatum (CPu),687,28,4.075691411935954
+no_recovery,Control,NoRecov_Cntl3,white matter / lesion,228,4,1.7543859649122806
+no_recovery,CupRap,NoRecov_CupRap1,cortex,1110,44,3.963963963963964
+no_recovery,CupRap,NoRecov_CupRap1,other,1295,52,4.015444015444015
+no_recovery,CupRap,NoRecov_CupRap1,striatum (CPu),507,9,1.7751479289940828
+no_recovery,CupRap,NoRecov_CupRap1,white matter / lesion,1227,18,1.466992665036675
+no_recovery,CupRap,NoRecov_CupRap2,cortex,998,21,2.1042084168336674
+no_recovery,CupRap,NoRecov_CupRap2,other,1054,49,4.648956356736242
+no_recovery,CupRap,NoRecov_CupRap2,striatum (CPu),773,30,3.8809831824062093
+no_recovery,CupRap,NoRecov_CupRap2,white matter / lesion,648,1,0.15432098765432098
+no_recovery,CupRap,NoRecov_CupRap3,cortex,1461,59,4.038329911019849
+no_recovery,CupRap,NoRecov_CupRap3,other,1498,92,6.141522029372497
+no_recovery,CupRap,NoRecov_CupRap3,striatum (CPu),966,29,3.002070393374741
+no_recovery,CupRap,NoRecov_CupRap3,white matter / lesion,1300,20,1.5384615384615385
+recovery,Control,Recov_Cntl1,cortex,1072,48,4.477611940298507
+recovery,Control,Recov_Cntl1,other,1172,74,6.313993174061433
+recovery,Control,Recov_Cntl1,striatum (CPu),742,26,3.5040431266846364
+recovery,Control,Recov_Cntl1,white matter / lesion,161,2,1.2422360248447204
+recovery,Control,Recov_Cntl2,cortex,937,37,3.9487726787620065
+recovery,Control,Recov_Cntl2,other,606,15,2.4752475247524752
+recovery,Control,Recov_Cntl2,striatum (CPu),787,13,1.6518424396442184
+recovery,Control,Recov_Cntl2,white matter / lesion,124,4,3.225806451612903
+recovery,CupRap,Recov_CupRap1,cortex,1017,38,3.736479842674533
+recovery,CupRap,Recov_CupRap1,other,1093,43,3.9341262580054894
+recovery,CupRap,Recov_CupRap1,striatum (CPu),1056,14,1.3257575757575757
+recovery,CupRap,Recov_CupRap1,white matter / lesion,1030,13,1.262135922330097
+recovery,CupRap,Recov_CupRap2,cortex,896,29,3.2366071428571432
+recovery,CupRap,Recov_CupRap2,other,877,43,4.903078677309008
+recovery,CupRap,Recov_CupRap2,striatum (CPu),975,20,2.051282051282051
+recovery,CupRap,Recov_CupRap2,white matter / lesion,766,3,0.39164490861618795
