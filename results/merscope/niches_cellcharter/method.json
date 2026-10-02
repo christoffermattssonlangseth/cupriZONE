@@ -1,0 +1,4 @@
+{
+ "method": "CellCharter: Delaunay, aggregate_neighbors n_layers=3 on 30 PCs, GMM; k by ClusterAutoK (5-15, 3 runs) on 150,000 cells, fit on 400,000",
+ "k": 9
+}

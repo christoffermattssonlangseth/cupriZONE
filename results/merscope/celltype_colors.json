@@ -1,0 +1,16 @@
+{
+ "Astrocyte": "#2a78d6",
+ "Astrocyte Gfap-high / qNSC": "#eb6834",
+ "Endothelial": "#eda100",
+ "Excitatory neuron": "#008300",
+ "Inhibitory neuron": "#4a3aa7",
+ "Microglia": "#104281",
+ "Microglia activated / DAM": "#2a78d6",
+ "Neuroblast": "#9a3a12",
+ "Neuron (other)": "#0d6b49",
+ "OPC": "#8a5c00",
+ "Oligodendrocyte": "#a3345e",
+ "Pericyte-VSMC": "#0ca30c",
+ "Striatal MSN": "#9085e9",
+ "Unassigned": "#eb6834"
+}

@@ -1,0 +1,13 @@
+condition,lesion,cell_type,n,mean,pct_ge2
+Control,False,Lesion glia (Gfap+ Olig2+),54,0.407,0.0
+Control,False,OPC,5316,0.214,1.223
+Control,False,Oligodendrocyte,19619,0.302,1.407
+Control,True,Lesion glia (Gfap+ Olig2+),1,0.0,0.0
+Control,True,OPC,285,0.432,1.754
+Control,True,Oligodendrocyte,7443,0.511,3.01
+CupRap,False,Lesion glia (Gfap+ Olig2+),178,0.933,10.674
+CupRap,False,OPC,5499,0.927,18.985
+CupRap,False,Oligodendrocyte,9130,1.026,21.03
+CupRap,True,Lesion glia (Gfap+ Olig2+),45,1.244,31.111
+CupRap,True,OPC,2211,1.66,57.847
+CupRap,True,Oligodendrocyte,7331,1.494,45.819

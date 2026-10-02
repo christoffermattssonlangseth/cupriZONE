@@ -1,0 +1,5 @@
+,Oligodendrocyte,OPC,Microglia,Astrocyte,Striatal MSN
+recovery:Control | grey matter,25.97,17.306,13.337,35.282,10.943
+recovery:Control | white matter / lesion,45.775,38.947,39.535,82.051,50.0
+recovery:CupRap | grey matter,74.885,65.466,62.12,81.591,60.873
+recovery:CupRap | white matter / lesion,90.765,89.688,61.534,98.873,69.434

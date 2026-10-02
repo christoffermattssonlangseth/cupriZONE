@@ -1,0 +1,25 @@
+condition,lesion,cell_type,n,mean,pct_ge2
+BSA_infused,False,Lesion glia (Gfap+ Olig2+),512,0.271,3.516
+BSA_infused,False,OPC,19516,0.089,0.369
+BSA_infused,False,Oligodendrocyte,72695,0.062,0.265
+BSA_infused,True,Lesion glia (Gfap+ Olig2+),67,0.552,16.418
+BSA_infused,True,OPC,2527,0.168,2.256
+BSA_infused,True,Oligodendrocyte,44559,0.086,0.642
+Control,False,Lesion glia (Gfap+ Olig2+),118,0.28,2.542
+Control,False,OPC,8640,0.155,1.157
+Control,False,Oligodendrocyte,31916,0.136,0.846
+Control,True,Lesion glia (Gfap+ Olig2+),29,0.034,0.0
+Control,True,OPC,543,0.112,0.552
+Control,True,Oligodendrocyte,10287,0.103,0.622
+CupRap,False,Lesion glia (Gfap+ Olig2+),13570,0.471,9.064
+CupRap,False,OPC,9622,0.342,5.238
+CupRap,False,Oligodendrocyte,2397,0.271,3.755
+CupRap,True,Lesion glia (Gfap+ Olig2+),6997,0.82,21.581
+CupRap,True,OPC,3215,1.527,47.994
+CupRap,True,Oligodendrocyte,3967,1.066,32.972
+OSM_infused,False,Lesion glia (Gfap+ Olig2+),555,0.845,24.865
+OSM_infused,False,OPC,11258,0.479,12.418
+OSM_infused,False,Oligodendrocyte,46791,0.294,5.435
+OSM_infused,True,Lesion glia (Gfap+ Olig2+),164,0.994,29.268
+OSM_infused,True,OPC,2673,0.822,24.691
+OSM_infused,True,Oligodendrocyte,31615,0.488,11.276

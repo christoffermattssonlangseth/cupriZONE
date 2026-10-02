@@ -1,0 +1,13 @@
+,Oligodendrocyte,OPC,Microglia,Astrocyte,Striatal MSN
+infusion:BSA_infused | grey matter,1.538,1.645,3.555,2.347,4.629
+infusion:BSA_infused | white matter / lesion,2.087,3.839,19.864,6.599,0.0
+infusion:OSM_infused | grey matter,4.905,6.546,10.69,9.361,3.594
+infusion:OSM_infused | white matter / lesion,8.265,11.859,20.356,14.444,0.0
+no_recovery:Control | grey matter,3.331,2.407,3.185,5.23,3.32
+no_recovery:Control | white matter / lesion,1.954,1.473,3.818,5.033,
+no_recovery:CupRap | grey matter,6.258,6.194,27.768,7.009,5.661
+no_recovery:CupRap | white matter / lesion,31.51,42.582,65.671,17.406,17.097
+recovery:Control | grey matter,1.228,1.242,1.792,2.667,1.245
+recovery:Control | white matter / lesion,1.653,1.404,3.654,0.0,50.0
+recovery:CupRap | grey matter,14.973,14.821,51.838,11.874,9.951
+recovery:CupRap | white matter / lesion,40.977,52.465,77.999,39.099,33.244
