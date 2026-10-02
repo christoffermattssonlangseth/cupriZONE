@@ -1,0 +1,20 @@
+sample_id,condition,S0: Neuroblast | Astrocyte,S1: Ependymal | Lesion glia (Gfap+ Olig2+),S2: Striatal MSN | Astrocyte,S3: Oligodendrocyte | Astrocyte Gfap-high / qNSC,S4: Ependymal | Microglia
+Inf_BSA1,BSA_infused,0.0,0.1508,0.1025,0.4162,0.3305
+Inf_BSA2,BSA_infused,0.0,0.1615,0.0762,0.4366,0.3256
+Inf_BSA3,BSA_infused,0.0,0.2541,0.0741,0.4358,0.236
+Inf_BSA4,BSA_infused,0.0,0.2019,0.0584,0.3832,0.3565
+Inf_BSA5,BSA_infused,0.0,0.1477,0.088,0.4365,0.3278
+Inf_BSA6,BSA_infused,0.0,0.1066,0.0504,0.5508,0.2923
+Inf_OSM1,OSM_infused,0.0,0.1985,0.0453,0.2921,0.4641
+Inf_OSM2,OSM_infused,0.0,0.1757,0.0264,0.2883,0.5096
+Inf_OSM3,OSM_infused,0.0,0.1986,0.0179,0.1933,0.5902
+NoRecov_Cntl1,Control,0.0101,0.5409,0.1054,0.1147,0.2289
+NoRecov_Cntl2,Control,0.0664,0.5524,0.1695,0.081,0.1307
+NoRecov_Cntl3,Control,0.0481,0.504,0.199,0.1123,0.1366
+NoRecov_CupRap1,CupRap,0.0,0.5239,0.1132,0.0642,0.2987
+NoRecov_CupRap2,CupRap,0.1705,0.3777,0.2672,0.0,0.1846
+NoRecov_CupRap3,CupRap,0.0502,0.4655,0.1621,0.0195,0.3027
+Recov_Cntl1,Control,0.1434,0.365,0.3016,0.0869,0.1031
+Recov_Cntl2,Control,0.1272,0.5117,0.2488,0.0584,0.0539
+Recov_CupRap1,CupRap,0.1255,0.3668,0.2427,0.0087,0.2564
+Recov_CupRap2,CupRap,0.1588,0.2452,0.3193,0.0174,0.2593

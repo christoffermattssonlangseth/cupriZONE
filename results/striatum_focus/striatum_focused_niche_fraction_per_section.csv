@@ -1,0 +1,20 @@
+sample_id,condition,T0: Striatal MSN | Astrocyte,T1: Striatal MSN | Neuroblast,T2: Striatal MSN | Astrocyte Gfap-high / qNSC,T3: Microglia | Astrocyte Gfap-high / qNSC
+Inf_BSA1,BSA_infused,0.4541,0.3465,0.199,0.0004
+Inf_BSA2,BSA_infused,0.4274,0.3628,0.2094,0.0004
+Inf_BSA3,BSA_infused,0.4263,0.3333,0.2401,0.0003
+Inf_BSA4,BSA_infused,0.3969,0.4048,0.1961,0.0022
+Inf_BSA5,BSA_infused,0.3827,0.3885,0.2281,0.0007
+Inf_BSA6,BSA_infused,0.389,0.4061,0.2037,0.0013
+Inf_OSM1,OSM_infused,0.449,0.3053,0.2419,0.0038
+Inf_OSM2,OSM_infused,0.4681,0.2686,0.2607,0.0026
+Inf_OSM3,OSM_infused,0.4493,0.311,0.2343,0.0055
+NoRecov_Cntl1,Control,0.4318,0.3371,0.2269,0.0042
+NoRecov_Cntl2,Control,0.4369,0.3428,0.2144,0.0059
+NoRecov_Cntl3,Control,0.4087,0.401,0.1851,0.0052
+NoRecov_CupRap1,CupRap,0.4814,0.4263,0.0435,0.0489
+NoRecov_CupRap2,CupRap,0.4274,0.4934,0.0467,0.0325
+NoRecov_CupRap3,CupRap,0.4922,0.3941,0.0654,0.0483
+Recov_Cntl1,Control,0.412,0.3805,0.2037,0.0038
+Recov_Cntl2,Control,0.4102,0.444,0.1424,0.0034
+Recov_CupRap1,CupRap,0.3942,0.3162,0.089,0.2006
+Recov_CupRap2,CupRap,0.3564,0.3321,0.0655,0.2459

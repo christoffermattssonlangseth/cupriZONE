@@ -20,10 +20,10 @@ def name_niches(frac, overall, prefix="N"):
     return names
 
 
-def downstream(adata, NK, OUT, samples, log=print, CT_KEY="cell_type", method="k-means on neighbourhood composition"):
+def downstream(adata, NK, OUT, samples, log=print, CT_KEY="cell_type", method="k-means on neighbourhood composition", contrasts=None):
     order = samples.sample_id.tolist()
     meta = samples.set_index("sample_id")
-    contrasts = CONTRASTS
+    contrasts = contrasts or CONTRASTS
     cts = list(adata.obs[CT_KEY].cat.categories)
     k_best = len(adata.obs[NK].cat.categories)
     # ------------------------------------------------------------------ 4 niche x cell-type enrichment
@@ -61,7 +61,7 @@ def downstream(adata, NK, OUT, samples, log=print, CT_KEY="cell_type", method="k
     log("differential niche abundance:\n" + da[["experiment", "niche", "mean1", "mean2", "log2FC", "p_welch"]].round(4).to_string())
 
     ncmap = viz.cmap_for(adata.obs[NK].cat.categories)
-    fig, axes = plt.subplots(1, 3, figsize=(15, 4.6), gridspec_kw={"width_ratios": [6, 4, 9]}, sharey=True)
+    fig, axes = plt.subplots(1, len(contrasts), figsize=(5 * len(contrasts), 4.6), sharey=True, squeeze=False); axes = axes.ravel()
     for ax, (expt, g1, g2) in zip(axes, contrasts):
         ss = [s for s in order if meta.loc[s, "experiment"] == expt]
         ss = sorted(ss, key=lambda s: (meta.loc[s, "condition"] != g2, s))  # control/BSA first
@@ -78,7 +78,7 @@ def downstream(adata, NK, OUT, samples, log=print, CT_KEY="cell_type", method="k
     fig.savefig(f"{OUT}/niche_abundance_per_sample.png"); plt.close(fig)
 
     # per-experiment log2FC dot chart with p-values
-    fig, axes = plt.subplots(1, 3, figsize=(13, 0.4 * k_best + 1.5), sharey=True)
+    fig, axes = plt.subplots(1, len(contrasts), figsize=(4.3 * len(contrasts), 0.4 * k_best + 1.5), sharey=True, squeeze=False); axes = axes.ravel()
     for ax, (expt, g1, g2) in zip(axes, contrasts):
         d = da[da.experiment == expt].set_index("niche").reindex(ab.columns)
         ax.axvline(0, color=viz.AXIS, lw=1)
@@ -92,7 +92,7 @@ def downstream(adata, NK, OUT, samples, log=print, CT_KEY="cell_type", method="k
     fig.savefig(f"{OUT}/niche_log2fc_by_experiment.png"); plt.close(fig)
 
     # ------------------------------------------------------------------ 7 spatial niche maps
-    n = len(order); ncol = 5; nrow = int(np.ceil(n / ncol))
+    n = len(order); ncol = min(5, n); nrow = int(np.ceil(n / ncol))
     fig, axes = plt.subplots(nrow, ncol, figsize=(ncol * 3.4, nrow * 3.2), squeeze=False)
     for ax, s in zip(axes.ravel(), order):
         m = (adata.obs.sample_id == s).values

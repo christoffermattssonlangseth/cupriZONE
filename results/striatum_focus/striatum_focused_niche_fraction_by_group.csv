@@ -1,0 +1,7 @@
+row_0,T0: Striatal MSN | Astrocyte,T1: Striatal MSN | Neuroblast,T2: Striatal MSN | Astrocyte Gfap-high / qNSC,T3: Microglia | Astrocyte Gfap-high / qNSC
+infusion:BSA_infused,41.98,36.75,21.19,0.08
+infusion:OSM_infused,45.53,29.52,24.55,0.39
+no_recovery:Control,42.52,36.24,20.72,0.52
+no_recovery:CupRap,46.57,43.83,5.33,4.26
+recovery:Control,41.11,41.47,17.07,0.36
+recovery:CupRap,37.49,32.44,7.69,22.38

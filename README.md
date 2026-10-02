@@ -70,3 +70,20 @@ the recovery time point only. The infusion arm (OSM vs BSA, 7 days, healthy mice
 - `scripts/annotation_overrides.json` documents the two manual relabels (cluster 2 → Pericyte-VSMC; cluster 31 → lesion glia).
 - Steps 02b/03/04 rerun in ~15 min in total; `run_pipeline.sh` skips step 02 when the checkpoint exists.
 - Local `rsync` in `/usr/local/bin` is an x86 binary that no longer runs; use `/usr/bin/rsync` or `scp`.
+
+## Region-focused analyses (added 2026-10-02)
+
+Whole-section niches are too coarse for the structures the paper is about, so two focused analyses mimic its ROI:
+
+- `scripts/14_vsvz_focus.py` → `results/vsvz_focus/`: V-SVZ = cells ≤75 µm from the lateral-ventricle ependymal lining
+  (spatial clusters of ependymal cells away from the midline; choroid plexus excluded). Wall from tissue context within
+  150 µm: white-matter glia (oligodendrocyte/OPC/microglia/lesion glia) → "dorsal" (roof under the corpus callosum and the
+  white-matter-adjacent medial wall), striatal MSN → "lateral", otherwise "medial". Per-section composition, progenitor
+  activation (*Mki67*, *Egfr*, *Ascl1*), microglia-state genes, focused k-means niches within the V-SVZ, zoom maps.
+- `scripts/15_striatum_focus.py` → `results/striatum_focus/`: caudate putamen = ≥25 % striatal MSN within 75 µm, outside
+  the V-SVZ band; fibre bundles = patches where white-matter glia are ≥50 % of cells within 40 µm, matrix = the rest.
+  Same metrics and focused niches. Kept separate from the V-SVZ analysis.
+- `scripts/focus_utils.py` holds the shared code.
+
+MERSCOPE: `scripts/12_merscope_preprocess.py` (QC ≥15 transcripts / ≥5 genes / volume 1–99 %, Leiden, annotation) and
+`scripts/13_merscope_niche.py` (k-means + CellCharter niches, cross-platform comparison) → `results/merscope/`.

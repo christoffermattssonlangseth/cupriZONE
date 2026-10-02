@@ -1,0 +1,5 @@
+,Striatal MSN,Inhibitory neuron,Astrocyte,Astrocyte Gfap-high / qNSC,OPC,Oligodendrocyte,Microglia,Lesion glia (Gfap+ Olig2+),Endothelial,Pericyte-VSMC,Neuroblast
+T0: Striatal MSN | Astrocyte,0.5754,0.031,0.0972,0.0018,0.0268,0.0576,0.054,0.0135,0.0979,0.0191,0.0
+T1: Striatal MSN | Neuroblast,0.7837,0.017,0.0499,0.0004,0.0151,0.0283,0.0284,0.0053,0.0555,0.0097,0.0
+T2: Striatal MSN | Astrocyte Gfap-high / qNSC,0.2954,0.03,0.1007,0.015,0.0331,0.236,0.055,0.0128,0.0955,0.0198,0.0005
+T3: Microglia | Astrocyte Gfap-high / qNSC,0.2863,0.0182,0.056,0.0122,0.0375,0.0401,0.4293,0.0217,0.0592,0.0103,0.0001
