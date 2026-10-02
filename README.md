@@ -28,11 +28,21 @@ scripts/05_cellcharter.py    CellCharter niches: Delaunay graph, 3-layer neighbo
 scripts/niche_downstream.py  shared niche outputs (enrichment, abundance/contrasts, spatial maps) for 03 and 05
 scripts/run_pipeline.sh      runs 02 (if no checkpoint), 02b, 03 (k auto + k=12), 04
 scripts/run_cellcharter.sh   runs 05, then 03 and 04 again
+scripts/06_download_merscope.sh  MERSCOPE (Vizgen) cell_by_gene + cell_metadata for the 4 recovery sections (172 MB)
+scripts/07_merscope_to_h5ad.py   assemble them into results/merscope/merscope_recovery_raw.h5ad (759k cells x 300 genes, raw)
+scripts/08_striatal_lesion_check.py  what the white-matter/microglia niche spots inside the striatum are (results/striatal_lesion_check/)
 scripts/viz.py               shared palette / matplotlib chrome
 ```
 
 Compute runs on the analysis Mac (`christoffer@100.115.223.38`, env `~/miniconda3/envs/sc_py312`) in
 `~/work/karolinska/development/cupriZONE/`; results are synced back into `results/` here.
+
+## Time points
+
+The cuprizone arm has two time points: `no_recovery` = 6 weeks CupRap, collected immediately (acute demyelination);
+`recovery` = 6 weeks CupRap + 3 weeks recovery (early remyelination). They were run in different Xenium batches
+(different custom panel, software and segmentation), so compare each to its own controls. The MERSCOPE sections are
+the recovery time point only. The infusion arm (OSM vs BSA, 7 days, healthy mice, PFA-fixed) is a separate experiment.
 
 ## Key parameters
 

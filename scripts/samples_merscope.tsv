@@ -1,0 +1,5 @@
+gsm	prefix	sample_id	condition	experiment	replicate
+GSM8253800	Cntl1	MERSCOPE_Recov_Cntl1	Control	recovery	1
+GSM8253801	Cntl2	MERSCOPE_Recov_Cntl2	Control	recovery	2
+GSM8253802	CR1	MERSCOPE_Recov_CupRap1	CupRap	recovery	1
+GSM8253803	CR2	MERSCOPE_Recov_CupRap2	CupRap	recovery	2
