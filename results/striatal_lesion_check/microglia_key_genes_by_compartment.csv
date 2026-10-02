@@ -1,0 +1,7 @@
+,Cx3cr1,Tmem119,Siglech,Trem2,Cd68,Lgals3,Spp1,Cybb,Igf1,H2-Eb1,Mki67,Mbp,Mog,Gfap,Il33
+no_recovery:Control | corpus callosum / WM,7.39,3.47,4.65,4.45,1.88,0.11,0.21,0.23,0.03,0.05,0.12,10.45,0.68,1.12,0.37
+no_recovery:CupRap | corpus callosum / WM,4.06,0.58,1.4,6.52,4.49,1.73,4.86,0.77,0.46,0.07,0.34,1.29,0.07,6.19,0.06
+no_recovery:CupRap | striatal bundles,3.64,0.51,1.65,8.31,4.64,1.62,4.29,0.81,0.26,0.12,0.18,0.46,0.05,6.55,0.05
+recovery:Control | corpus callosum / WM,5.37,5.06,3.1,4.06,1.27,0.04,0.09,0.05,0.01,0.03,0.05,20.23,1.38,3.17,0.43
+recovery:CupRap | corpus callosum / WM,3.29,0.54,1.67,7.96,3.44,1.82,2.68,1.91,0.32,0.57,0.07,6.1,0.28,7.71,0.08
+recovery:CupRap | striatal bundles,4.07,0.63,2.47,8.35,3.31,1.95,2.64,1.83,0.34,0.96,0.08,4.61,0.13,5.4,0.08
