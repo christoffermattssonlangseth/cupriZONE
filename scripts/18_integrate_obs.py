@@ -5,6 +5,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 import common
 ROOT = common.ROOT; RES = f"{ROOT}/results"; H5 = f"{RES}/xenium_all.h5ad"
 obs = common.read_light(H5, keys=("obs",), obsm=())["obs"]
+sheet = pd.read_csv(f"{ROOT}/scripts/samples.tsv", sep="\t").set_index("sample_id")
+for c in ["group", "timepoint", "batch"]:
+    obs[c] = pd.Categorical(obs.sample_id.astype(str).map(sheet[c]), categories=list(dict.fromkeys(sheet[c])))
 def add(df, cols, fill):
     for c, new in cols.items():
         obs[new] = df[c].reindex(obs.index)
@@ -29,6 +32,7 @@ from anndata.io import write_elem
 with h5py.File(H5, "r+") as f:
     if "obs_columns" in f["uns"]: del f["uns"]["obs_columns"]
     write_elem(f["uns"], "obs_columns", {
+        "group, timepoint, batch": "from scripts/samples.tsv: group = experiment x treatment (NoRecov_CupRap, NoRecov_Cntl, Recov_CupRap, Recov_Cntl, Inf_BSA, Inf_OSM); use group, not condition, for contrasts",
         "leiden, cell_type": "02_preprocess.py (+ overrides in annotation_overrides.json)",
         "niche, niche_id": "03_niche.py k-means on 15-NN cell-type composition, k=6 (silhouette)",
         "niche_k12, niche_id_k12": "03_niche.py, k=12 forced",
@@ -39,3 +43,14 @@ with h5py.File(H5, "r+") as f:
         "oligo_subcluster, oligo_immune_score": "17_oligo_subcluster.py: per-batch Leiden of Oligodendrocyte+OPC+lesion glia with the batch's full panel; immune score = n detected immune genes (recovery: C4b,H2-Eb1,Lgals3,Il6; acute: H2-Eb1,Lgals3,Socs3,Osmr,Tnf,Cd52)"})
 obs.to_csv(f"{RES}/cell_metadata_full.csv.gz")
 print(obs.dtypes.to_string()); print("\n", obs[["vsvz_wall", "striatum_part", "oligo_subcluster"]].describe().to_string())
+
+# MERSCOPE object: same grouping columns
+import anndata as ad
+H5M = f"{RES}/merscope/merscope_processed.h5ad"
+if os.path.exists(H5M):
+    mobs = common.read_light(H5M, keys=("obs",), obsm=())["obs"]
+    msheet = pd.read_csv(f"{ROOT}/scripts/samples_merscope.tsv", sep="\t").set_index("sample_id")
+    for c in ["group", "timepoint", "batch"]:
+        mobs[c] = pd.Categorical(mobs.sample_id.astype(str).map(msheet[c]), categories=list(dict.fromkeys(msheet[c])))
+    common.write_obs(H5M, mobs); print("MERSCOPE obs groups:", mobs.group.value_counts().to_dict())
+print("Xenium obs groups:", obs.group.value_counts().to_dict())

@@ -37,6 +37,13 @@ scripts/viz.py               shared palette / matplotlib chrome
 Compute runs on the analysis Mac (`christoffer@100.115.223.38`, env `~/miniconda3/envs/sc_py312`) in
 `~/work/karolinska/development/cupriZONE/`; results are synced back into `results/` here.
 
+## Groupings
+
+Use `obs['group']` (Xenium: `NoRecov_Cntl`, `NoRecov_CupRap`, `Recov_Cntl`, `Recov_CupRap`, `Inf_BSA`, `Inf_OSM`;
+MERSCOPE: `MERSCOPE_Recov_Cntl`, `MERSCOPE_Recov_CupRap`) for contrasts, not `condition` alone: `condition` = CupRap
+spans two time points and two batches, and the two control groups differ in batch. `timepoint` and `batch` are also in obs
+and in `scripts/samples*.tsv`.
+
 ## Time points
 
 The cuprizone arm has two time points: `no_recovery` = 6 weeks CupRap, collected immediately (acute demyelination);

@@ -1,20 +1,20 @@
-gsm	prefix	sample_id	condition	experiment	replicate
-GSM8253804	Cntl1	Recov_Cntl1	Control	recovery	1
-GSM8253805	Cntl2	Recov_Cntl2	Control	recovery	2
-GSM8253806	CR1	Recov_CupRap1	CupRap	recovery	1
-GSM8253807	CR2	Recov_CupRap2	CupRap	recovery	2
-GSM8647384	Cntl1NoRecov	NoRecov_Cntl1	Control	no_recovery	1
-GSM8647385	Cntl2NoRecov	NoRecov_Cntl2	Control	no_recovery	2
-GSM8647386	Cntl3NoRecov	NoRecov_Cntl3	Control	no_recovery	3
-GSM8647387	CR1NoRecov	NoRecov_CupRap1	CupRap	no_recovery	1
-GSM8647388	CR2NoRecov	NoRecov_CupRap2	CupRap	no_recovery	2
-GSM8647389	CR3NoRecov	NoRecov_CupRap3	CupRap	no_recovery	3
-GSM8647390	BSAInf1	Inf_BSA1	BSA_infused	infusion	1
-GSM8647391	BSAInf2	Inf_BSA2	BSA_infused	infusion	2
-GSM8647392	BSAInf3	Inf_BSA3	BSA_infused	infusion	3
-GSM8647393	BSAInf4	Inf_BSA4	BSA_infused	infusion	4
-GSM8647394	BSAInf5	Inf_BSA5	BSA_infused	infusion	5
-GSM8647395	BSAInf6	Inf_BSA6	BSA_infused	infusion	6
-GSM8647396	OSMInf1	Inf_OSM1	OSM_infused	infusion	1
-GSM8647397	OSMInf2	Inf_OSM2	OSM_infused	infusion	2
-GSM8647398	OSMInf3	Inf_OSM3	OSM_infused	infusion	3
+gsm	prefix	sample_id	condition	experiment	replicate	group	timepoint	batch
+GSM8253804	Cntl1	Recov_Cntl1	Control	recovery	1	Recov_Cntl	6wk_CupRap_3wk_recovery	Xenium_2023_v1.4_panel348
+GSM8253805	Cntl2	Recov_Cntl2	Control	recovery	2	Recov_Cntl	6wk_CupRap_3wk_recovery	Xenium_2023_v1.4_panel348
+GSM8253806	CR1	Recov_CupRap1	CupRap	recovery	1	Recov_CupRap	6wk_CupRap_3wk_recovery	Xenium_2023_v1.4_panel348
+GSM8253807	CR2	Recov_CupRap2	CupRap	recovery	2	Recov_CupRap	6wk_CupRap_3wk_recovery	Xenium_2023_v1.4_panel348
+GSM8647384	Cntl1NoRecov	NoRecov_Cntl1	Control	no_recovery	1	NoRecov_Cntl	6wk_CupRap_no_recovery	Xenium_2024_v1.7_panel347
+GSM8647385	Cntl2NoRecov	NoRecov_Cntl2	Control	no_recovery	2	NoRecov_Cntl	6wk_CupRap_no_recovery	Xenium_2024_v1.7_panel347
+GSM8647386	Cntl3NoRecov	NoRecov_Cntl3	Control	no_recovery	3	NoRecov_Cntl	6wk_CupRap_no_recovery	Xenium_2024_v1.7_panel347
+GSM8647387	CR1NoRecov	NoRecov_CupRap1	CupRap	no_recovery	1	NoRecov_CupRap	6wk_CupRap_no_recovery	Xenium_2024_v1.7_panel347
+GSM8647388	CR2NoRecov	NoRecov_CupRap2	CupRap	no_recovery	2	NoRecov_CupRap	6wk_CupRap_no_recovery	Xenium_2024_v1.7_panel347
+GSM8647389	CR3NoRecov	NoRecov_CupRap3	CupRap	no_recovery	3	NoRecov_CupRap	6wk_CupRap_no_recovery	Xenium_2024_v1.7_panel347
+GSM8647390	BSAInf1	Inf_BSA1	BSA_infused	infusion	1	Inf_BSA	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647391	BSAInf2	Inf_BSA2	BSA_infused	infusion	2	Inf_BSA	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647392	BSAInf3	Inf_BSA3	BSA_infused	infusion	3	Inf_BSA	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647393	BSAInf4	Inf_BSA4	BSA_infused	infusion	4	Inf_BSA	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647394	BSAInf5	Inf_BSA5	BSA_infused	infusion	5	Inf_BSA	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647395	BSAInf6	Inf_BSA6	BSA_infused	infusion	6	Inf_BSA	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647396	OSMInf1	Inf_OSM1	OSM_infused	infusion	1	Inf_OSM	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647397	OSMInf2	Inf_OSM2	OSM_infused	infusion	2	Inf_OSM	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347
+GSM8647398	OSMInf3	Inf_OSM3	OSM_infused	infusion	3	Inf_OSM	7d_icv_infusion_healthy	Xenium_2024_v1.7_panel347

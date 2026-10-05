@@ -1,5 +1,5 @@
-gsm	prefix	sample_id	condition	experiment	replicate
-GSM8253800	Cntl1	MERSCOPE_Recov_Cntl1	Control	recovery	1
-GSM8253801	Cntl2	MERSCOPE_Recov_Cntl2	Control	recovery	2
-GSM8253802	CR1	MERSCOPE_Recov_CupRap1	CupRap	recovery	1
-GSM8253803	CR2	MERSCOPE_Recov_CupRap2	CupRap	recovery	2
+gsm	prefix	sample_id	condition	experiment	replicate	group	timepoint	batch
+GSM8253800	Cntl1	MERSCOPE_Recov_Cntl1	Control	recovery	1	MERSCOPE_Recov_Cntl	6wk_CupRap_3wk_recovery	MERSCOPE_2023_panel300
+GSM8253801	Cntl2	MERSCOPE_Recov_Cntl2	Control	recovery	2	MERSCOPE_Recov_Cntl	6wk_CupRap_3wk_recovery	MERSCOPE_2023_panel300
+GSM8253802	CR1	MERSCOPE_Recov_CupRap1	CupRap	recovery	1	MERSCOPE_Recov_CupRap	6wk_CupRap_3wk_recovery	MERSCOPE_2023_panel300
+GSM8253803	CR2	MERSCOPE_Recov_CupRap2	CupRap	recovery	2	MERSCOPE_Recov_CupRap	6wk_CupRap_3wk_recovery	MERSCOPE_2023_panel300
