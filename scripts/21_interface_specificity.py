@@ -13,10 +13,6 @@ d = common.read_light(f"{RES}/xenium_all.h5ad", keys=("obs",), obsm=("spatial",)
 keep = d["obs"].sample_id.astype(str).isin(SECTIONS).values; obs = d["obs"][keep].copy(); xy = d["obsm"]["spatial"][keep]; obs["sample_id"] = obs.sample_id.astype(str)
 ctx = fu.context_fractions(obs, xy, {"wm": ["Oligodendrocyte", "OPC", "Microglia", "Lesion glia (Gfap+ Olig2+)"], "gm": ["Excitatory neuron", "Inhibitory neuron", "Striatal MSN", "Neuron (other)"]}, r=50.0)
 terr = np.where(ctx.wm.values >= 0.40, "WM", np.where(ctx.gm.values >= 0.45, "GM", "other")); sdist = np.full(len(obs), np.nan)
-for s in SECTIONS:   # keep only large contiguous white-matter sheets (corpus callosum / external capsule), not striatal bundles
-    m = np.where(((obs.sample_id == s).values) & (terr == "WM"))[0]
-    lab = DBSCAN(eps=40.0, min_samples=5).fit_predict(xy[m]); sizes = pd.Series(lab).value_counts()
-    small = m[~np.isin(lab, sizes[sizes >= 2500].index) | (lab == -1)]; terr[small] = "other"
 for s in SECTIONS:
     m = np.where((obs.sample_id == s).values)[0]; w = m[terr[m] == "WM"]; g = m[terr[m] == "GM"]
     dW, _ = cKDTree(xy[w]).query(xy[m]); dG, _ = cKDTree(xy[g]).query(xy[m]); sdist[m] = np.where(terr[m] == "WM", dG, np.where(terr[m] == "GM", -dW, np.nan))
