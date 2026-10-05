@@ -96,3 +96,10 @@ Whole-section niches are too coarse for the structures the paper is about, so tw
 
 MERSCOPE: `scripts/12_merscope_preprocess.py` (QC ≥15 transcripts / ≥5 genes / volume 1–99 %, Leiden, annotation) and
 `scripts/13_merscope_niche.py` (k-means + CellCharter niches, cross-platform comparison) → `results/merscope/`.
+
+## Interface ("barrier") niche test (`scripts/20_interface_artefact.py`, `21_interface_specificity.py` → `results/interface_artefact/`)
+
+Does neighbourhood aggregation manufacture a niche at the white/grey-matter interface (cf. the "Ventral Rim OL" niche in RRMap)?
+Acute batch, 6 sections. Geometric bands (±75 µm from the WM/GM border, independent of niches); CellCharter GMM at k = 12/24/36
+with 0/1/2/3/5 aggregation layers; shuffle control (embeddings permuted within WM / GM / other per section, so geometry is kept
+but any rim biology is destroyed); cell-intrinsic oligodendrocyte expression by band. Summary: `summary_interface_specificity.csv`.
