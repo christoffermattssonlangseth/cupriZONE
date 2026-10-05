@@ -63,7 +63,7 @@ for i, s in enumerate(["NoRecov_Cntl1", "NoRecov_CupRap1"]):
         ax.scatter(xy[box, 0], -xy[box, 1], s=6, c=np.where(terr[box] == "WM", "#b7d3f6", np.where(terr[box] == "GM", "#f1efe8", "#e1e0d9")), lw=0)
         mm = box & (lab == best); ax.scatter(xy[mm, 0], -xy[mm, 1], s=9, c=viz.CAT8[7], lw=0)
         ax.scatter(xy[border, 0], -xy[border, 1], s=2, c=viz.INK, lw=0)
-        ax.set_title(f"{k} {st.replace(' within territory', '')}\\ninterface niche (red), border (black), WM (blue)", fontsize=9)
+        ax.set_title(f"{k} {st.replace(' within territory', '')}\ninterface niche (red), border (black), WM (blue)", fontsize=9)
     for ax in axes[i]:
         ax.set_aspect("equal"); ax.set_xticks([]); ax.set_yticks([]); ax.set_xlim(c[0] - half, c[0] + half); ax.set_ylim(-c[1] - half, -c[1] + half)
         for q in ax.spines.values(): q.set_visible(False)
