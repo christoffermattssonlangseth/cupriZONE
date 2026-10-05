@@ -59,8 +59,10 @@ the recovery time point only. The infusion arm (OSM vs BSA, 7 days, healthy mice
 - `niches_cellcharter/` — CellCharter GMM niches (k=8 by stability), same outputs plus `autok_stability.png`, `method.json`.
 - `niches/` (k=6) and `niches_k12/` — enrichment heatmap, spatial niche maps, abundance per section, log2FC dot charts,
   differential abundance CSV, squidpy neighbourhood-enrichment z-scores (per section + condition means, k=6 dir only).
-- On the remote only (too large for this disk): `results/xenium_all.h5ad` (2.36 M cells; obs has `leiden`, `cell_type`,
-  `niche`, `niche_k12`, `niche_cc`; X = log-normalised, `layers["counts"]`, `obsm["X_pca"|"spatial"]`, `obsp["connectivities"]`),
+- `results/xenium_all.h5ad` (2.36 M cells, 3.8 GB, remote + local copy, git-ignored; obs has `leiden`, `cell_type`,
+  `niche`, `niche_k12`, `niche_cc`, `lesion_wm_niche`, `vsvz_wall`/`vsvz_niche`, `striatum_part`/`striatum_niche`,
+  `oligo_subcluster`/`oligo_immune_score` (see `uns['obs_columns']`); obsp has the expression kNN plus the spatial 15-NN
+  and Delaunay graphs (`uns['graphs']`); X = log-normalised, `layers["counts"]`, `obsm["X_pca"|"spatial"]`, `obsp["connectivities"]`),
   `results/cell_metadata_with_niches.csv.gz`, `results/niches*/neighbourhood_composition.parquet`.
 
 ## Pipeline notes

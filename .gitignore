@@ -5,3 +5,4 @@ __pycache__/
 *.h5ad
 *.parquet
 results/cell_metadata_with_niches.csv.gz
+results/cell_metadata_full.csv.gz
