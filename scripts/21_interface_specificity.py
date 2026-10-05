@@ -13,11 +13,15 @@ d = common.read_light(f"{RES}/xenium_all.h5ad", keys=("obs",), obsm=("spatial",)
 keep = d["obs"].sample_id.astype(str).isin(SECTIONS).values; obs = d["obs"][keep].copy(); xy = d["obsm"]["spatial"][keep]; obs["sample_id"] = obs.sample_id.astype(str)
 ctx = fu.context_fractions(obs, xy, {"wm": ["Oligodendrocyte", "OPC", "Microglia", "Lesion glia (Gfap+ Olig2+)"], "gm": ["Excitatory neuron", "Inhibitory neuron", "Striatal MSN", "Neuron (other)"]}, r=50.0)
 terr = np.where(ctx.wm.values >= 0.40, "WM", np.where(ctx.gm.values >= 0.45, "GM", "other")); sdist = np.full(len(obs), np.nan)
+for s in SECTIONS:   # keep only large contiguous white-matter sheets (corpus callosum / external capsule), not striatal bundles
+    m = np.where(((obs.sample_id == s).values) & (terr == "WM"))[0]
+    lab = DBSCAN(eps=40.0, min_samples=5).fit_predict(xy[m]); sizes = pd.Series(lab).value_counts()
+    small = m[~np.isin(lab, sizes[sizes >= 2500].index) | (lab == -1)]; terr[small] = "other"
 for s in SECTIONS:
     m = np.where((obs.sample_id == s).values)[0]; w = m[terr[m] == "WM"]; g = m[terr[m] == "GM"]
     dW, _ = cKDTree(xy[w]).query(xy[m]); dG, _ = cKDTree(xy[g]).query(xy[m]); sdist[m] = np.where(terr[m] == "WM", dG, np.where(terr[m] == "GM", -dW, np.nan))
 band = np.where(np.isnan(sdist), "other", np.where(sdist > RIM, "WM deep", np.where(sdist > 0, "WM rim", np.where(sdist > -RIM, "GM rim", "GM deep"))))
-overall = pd.Series(band).value_counts(normalize=True); is_cup = obs.sample_id.str.contains("CupRap").values
+print(pd.crosstab(obs.sample_id.values, band).to_string()); overall = pd.Series(band).value_counts(normalize=True); is_cup = obs.sample_id.str.contains("CupRap").values
 rows, picks = [], {}
 for f in sorted(glob.glob(f"{OUT}/k*/niche_labels_by_setting.csv.gz")):
     k = os.path.basename(os.path.dirname(f)); L = pd.read_csv(f, index_col=0).reindex(obs.index)
@@ -31,7 +35,9 @@ for f in sorted(glob.glob(f"{OUT}/k*/niche_labels_by_setting.csv.gz")):
                      "% of niche in rim bands": 100 * frac.loc[best, ["WM rim", "GM rim"]].sum(),
                      "% of WM-rim cells covered (controls)": 100 * ((lab == best) & (band == "WM rim") & ~is_cup).sum() / ((band == "WM rim") & ~is_cup).sum(),
                      "% of WM-rim cells covered (CupRap)": 100 * ((lab == best) & (band == "WM rim") & is_cup).sum() / ((band == "WM rim") & is_cup).sum(),
-                     "% of niche in CupRap": 100 * is_cup[lab == best].mean()})
+                     "% of niche in CupRap": 100 * is_cup[lab == best].mean(),
+                     "median |dist to border| of niche cells (µm)": float(np.nanmedian(np.abs(sdist[(lab == best) & ~np.isnan(sdist)]))),
+                     "overall median |dist| (µm)": float(np.nanmedian(np.abs(sdist)))})
 res = pd.DataFrame(rows); pd.set_option("display.width", 260); print(res.round(2).to_string(index=False)); res.round(3).to_csv(f"{OUT}/summary_interface_specificity.csv", index=False)
 # maps for k24: L0, L2, L3, shuffled, one control + one CupRap section
 k = "k24"; sets = [s for s in ["L0 (no aggregation)", "L2", "L3", "L3 shuffled within territory"] if (k, s) in picks]
