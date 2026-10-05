@@ -1,0 +1,1081 @@
+k,setting,group,dist_um,pct_in_interface_niche
+k12,L0 (no aggregation),control sections,-290.0,3.99002493765586
+k12,L0 (no aggregation),control sections,-270.0,5.4077376671940165
+k12,L0 (no aggregation),control sections,-250.0,7.712240868706812
+k12,L0 (no aggregation),control sections,-230.0,9.803086748270356
+k12,L0 (no aggregation),control sections,-210.0,10.638297872340425
+k12,L0 (no aggregation),control sections,-190.0,11.140055163959547
+k12,L0 (no aggregation),control sections,-170.0,11.265279154278163
+k12,L0 (no aggregation),control sections,-150.0,11.222578110835801
+k12,L0 (no aggregation),control sections,-130.0,10.861077974189351
+k12,L0 (no aggregation),control sections,-110.0,10.255109803722675
+k12,L0 (no aggregation),control sections,-90.0,10.06334581053844
+k12,L0 (no aggregation),control sections,-70.0,10.528048149715522
+k12,L0 (no aggregation),control sections,-50.0,10.261379707715678
+k12,L0 (no aggregation),control sections,-30.0,10.712765051520053
+k12,L0 (no aggregation),control sections,-10.0,10.199138858988158
+k12,L0 (no aggregation),control sections,10.0,8.890983349041784
+k12,L0 (no aggregation),control sections,30.0,5.130228887134964
+k12,L0 (no aggregation),control sections,50.0,1.099251234666242
+k12,L0 (no aggregation),control sections,70.0,0.33373063170441003
+k12,L0 (no aggregation),control sections,90.0,0.24415765608650158
+k12,L0 (no aggregation),control sections,110.0,0.0
+k12,L0 (no aggregation),control sections,130.0,0.05125576627370579
+k12,L0 (no aggregation),control sections,150.0,0.0
+k12,L0 (no aggregation),control sections,170.0,0.0
+k12,L0 (no aggregation),control sections,190.0,0.0
+k12,L0 (no aggregation),control sections,210.0,0.0
+k12,L0 (no aggregation),control sections,230.0,0.0
+k12,L0 (no aggregation),control sections,250.0,0.0
+k12,L0 (no aggregation),control sections,270.0,0.0
+k12,L0 (no aggregation),control sections,290.0,0.0
+k12,L1,control sections,-290.0,6.118038237738986
+k12,L1,control sections,-270.0,5.9398820652955555
+k12,L1,control sections,-250.0,6.478282329713722
+k12,L1,control sections,-230.0,6.929217668972858
+k12,L1,control sections,-210.0,7.9492983250339515
+k12,L1,control sections,-190.0,8.642353662273981
+k12,L1,control sections,-170.0,9.699372315824247
+k12,L1,control sections,-150.0,10.872061400858161
+k12,L1,control sections,-130.0,11.988938293026786
+k12,L1,control sections,-110.0,13.054724349546076
+k12,L1,control sections,-90.0,14.060850369517228
+k12,L1,control sections,-70.0,13.932383504960738
+k12,L1,control sections,-50.0,15.52564035409355
+k12,L1,control sections,-30.0,19.058162309460954
+k12,L1,control sections,-10.0,21.689989235737354
+k12,L1,control sections,10.0,21.991831605403707
+k12,L1,control sections,30.0,21.988950276243095
+k12,L1,control sections,50.0,13.079496574796877
+k12,L1,control sections,70.0,3.2419547079856974
+k12,L1,control sections,90.0,0.8719916288803629
+k12,L1,control sections,110.0,1.1130899376669634
+k12,L1,control sections,130.0,0.768836494105587
+k12,L1,control sections,150.0,0.6402048655569782
+k12,L1,control sections,170.0,0.6182380216383307
+k12,L1,control sections,190.0,0.0942507068803016
+k12,L1,control sections,210.0,0.3112033195020747
+k12,L1,control sections,230.0,0.0
+k12,L1,control sections,250.0,0.15723270440251574
+k12,L1,control sections,270.0,0.468384074941452
+k12,L1,control sections,290.0,0.32679738562091504
+k12,L2,control sections,-290.0,4.28927680798005
+k12,L2,control sections,-270.0,4.501653962318423
+k12,L2,control sections,-250.0,5.157946692991115
+k12,L2,control sections,-230.0,5.481639169771155
+k12,L2,control sections,-210.0,6.627433227704844
+k12,L2,control sections,-190.0,7.493104505056697
+k12,L2,control sections,-170.0,8.70829203832177
+k12,L2,control sections,-150.0,10.122680848492175
+k12,L2,control sections,-130.0,10.985793297906952
+k12,L2,control sections,-110.0,12.552619566871229
+k12,L2,control sections,-90.0,13.56176216527498
+k12,L2,control sections,-70.0,13.354022664221562
+k12,L2,control sections,-50.0,15.557068775862973
+k12,L2,control sections,-30.0,20.34403474410287
+k12,L2,control sections,-10.0,23.842841765339074
+k12,L2,control sections,10.0,25.479107759974866
+k12,L2,control sections,30.0,25.73007103393844
+k12,L2,control sections,50.0,18.177473315277997
+k12,L2,control sections,70.0,4.98212157330155
+k12,L2,control sections,90.0,1.2905476107429368
+k12,L2,control sections,110.0,1.068566340160285
+k12,L2,control sections,130.0,0.6663249615581752
+k12,L2,control sections,150.0,0.5121638924455826
+k12,L2,control sections,170.0,0.07727975270479134
+k12,L2,control sections,190.0,0.0
+k12,L2,control sections,210.0,0.0
+k12,L2,control sections,230.0,0.0
+k12,L2,control sections,250.0,0.0
+k12,L2,control sections,270.0,0.702576112412178
+k12,L2,control sections,290.0,0.0
+k12,L3,control sections,-290.0,6.26766417290108
+k12,L3,control sections,-270.0,5.494031353372645
+k12,L3,control sections,-250.0,5.725567620927937
+k12,L3,control sections,-230.0,6.386375731772219
+k12,L3,control sections,-210.0,7.478497057492079
+k12,L3,control sections,-190.0,7.699969353355808
+k12,L3,control sections,-170.0,8.450611166171127
+k12,L3,control sections,-150.0,9.995769625914063
+k12,L3,control sections,-130.0,10.888190001084482
+k12,L3,control sections,-110.0,12.278744230866764
+k12,L3,control sections,-90.0,13.883290143007967
+k12,L3,control sections,-70.0,14.219212865002115
+k12,L3,control sections,-50.0,16.044209313288984
+k12,L3,control sections,-30.0,18.743080984416245
+k12,L3,control sections,-10.0,20.990312163616792
+k12,L3,control sections,10.0,22.33741753063148
+k12,L3,control sections,30.0,23.472770323599054
+k12,L3,control sections,50.0,13.079496574796877
+k12,L3,control sections,70.0,2.431466030989273
+k12,L3,control sections,90.0,0.06975933031042902
+k12,L3,control sections,110.0,0.17809439002671415
+k12,L3,control sections,130.0,0.0
+k12,L3,control sections,150.0,0.0
+k12,L3,control sections,170.0,0.0
+k12,L3,control sections,190.0,0.0
+k12,L3,control sections,210.0,0.0
+k12,L3,control sections,230.0,0.0
+k12,L3,control sections,250.0,0.0
+k12,L3,control sections,270.0,0.0
+k12,L3,control sections,290.0,0.0
+k12,L5,control sections,-290.0,4.455527847049044
+k12,L5,control sections,-270.0,6.356968215158925
+k12,L5,control sections,-250.0,9.378084896347483
+k12,L5,control sections,-230.0,12.602448110697178
+k12,L5,control sections,-210.0,14.504300588501584
+k12,L5,control sections,-190.0,16.21207477781183
+k12,L5,control sections,-170.0,15.949785265939875
+k12,L5,control sections,-150.0,15.75512177433976
+k12,L5,control sections,-130.0,14.927882008458953
+k12,L5,control sections,-110.0,14.378455140234317
+k12,L5,control sections,-90.0,13.84969766772243
+k12,L5,control sections,-70.0,14.045234400714723
+k12,L5,control sections,-50.0,14.698025247498823
+k12,L5,control sections,-30.0,17.738227028868263
+k12,L5,control sections,-10.0,19.53713670613563
+k12,L5,control sections,10.0,18.912975180647187
+k12,L5,control sections,30.0,13.71744277821626
+k12,L5,control sections,50.0,5.687430301099251
+k12,L5,control sections,70.0,2.026221692491061
+k12,L5,control sections,90.0,0.4185559818625741
+k12,L5,control sections,110.0,0.0
+k12,L5,control sections,130.0,0.05125576627370579
+k12,L5,control sections,150.0,0.0
+k12,L5,control sections,170.0,0.0
+k12,L5,control sections,190.0,0.0
+k12,L5,control sections,210.0,0.0
+k12,L5,control sections,230.0,0.0
+k12,L5,control sections,250.0,0.0
+k12,L5,control sections,270.0,0.0
+k12,L5,control sections,290.0,0.0
+k12,L3 shuffled within territory,control sections,-290.0,11.321695760598503
+k12,L3 shuffled within territory,control sections,-270.0,11.00244498777506
+k12,L3 shuffled within territory,control sections,-250.0,10.612043435340572
+k12,L3 shuffled within territory,control sections,-230.0,10.888770622671634
+k12,L3 shuffled within territory,control sections,-210.0,11.253961068356723
+k12,L3 shuffled within territory,control sections,-190.0,10.795280416794363
+k12,L3 shuffled within territory,control sections,-170.0,10.617773372976544
+k12,L3 shuffled within territory,control sections,-150.0,10.75119356983139
+k12,L3 shuffled within territory,control sections,-130.0,10.866500379568377
+k12,L3 shuffled within territory,control sections,-110.0,10.84850636506568
+k12,L3 shuffled within territory,control sections,-90.0,10.821575966983396
+k12,L3 shuffled within territory,control sections,-70.0,10.655005407438754
+k12,L3 shuffled within territory,control sections,-50.0,10.428997957152584
+k12,L3 shuffled within territory,control sections,-30.0,9.69087967299668
+k12,L3 shuffled within territory,control sections,-10.0,7.831001076426265
+k12,L3 shuffled within territory,control sections,10.0,4.429783223374175
+k12,L3 shuffled within territory,control sections,30.0,2.541436464088398
+k12,L3 shuffled within territory,control sections,50.0,1.2904253624342839
+k12,L3 shuffled within territory,control sections,70.0,0.47675804529201427
+k12,L3 shuffled within territory,control sections,90.0,0.17439832577607256
+k12,L3 shuffled within territory,control sections,110.0,0.04452359750667854
+k12,L3 shuffled within territory,control sections,130.0,0.1537672988211174
+k12,L3 shuffled within territory,control sections,150.0,0.06402048655569782
+k12,L3 shuffled within territory,control sections,170.0,0.0
+k12,L3 shuffled within territory,control sections,190.0,0.47125353440150797
+k12,L3 shuffled within territory,control sections,210.0,0.0
+k12,L3 shuffled within territory,control sections,230.0,0.0
+k12,L3 shuffled within territory,control sections,250.0,0.15723270440251574
+k12,L3 shuffled within territory,control sections,270.0,0.234192037470726
+k12,L3 shuffled within territory,control sections,290.0,0.0
+k24,L0 (no aggregation),control sections,-290.0,2.111388196176226
+k24,L0 (no aggregation),control sections,-270.0,2.3874586509420395
+k24,L0 (no aggregation),control sections,-250.0,2.7517275419545904
+k24,L0 (no aggregation),control sections,-230.0,2.9909526343799895
+k24,L0 (no aggregation),control sections,-210.0,3.3952014486192845
+k24,L0 (no aggregation),control sections,-190.0,3.9534171008274597
+k24,L0 (no aggregation),control sections,-170.0,4.340931615460852
+k24,L0 (no aggregation),control sections,-150.0,4.913277331238291
+k24,L0 (no aggregation),control sections,-130.0,5.58507754039692
+k24,L0 (no aggregation),control sections,-110.0,5.999898564690369
+k24,L0 (no aggregation),control sections,-90.0,6.152221902293887
+k24,L0 (no aggregation),control sections,-70.0,6.4183946960078995
+k24,L0 (no aggregation),control sections,-50.0,6.516159446859778
+k24,L0 (no aggregation),control sections,-30.0,5.577791024440092
+k24,L0 (no aggregation),control sections,-10.0,5.247578040904198
+k24,L0 (no aggregation),control sections,10.0,4.30411561420044
+k24,L0 (no aggregation),control sections,30.0,3.0939226519337018
+k24,L0 (no aggregation),control sections,50.0,1.1789071212362594
+k24,L0 (no aggregation),control sections,70.0,0.5244338498212158
+k24,L0 (no aggregation),control sections,90.0,0.4185559818625741
+k24,L0 (no aggregation),control sections,110.0,0.4897595725734639
+k24,L0 (no aggregation),control sections,130.0,0.35879036391594055
+k24,L0 (no aggregation),control sections,150.0,0.2560819462227913
+k24,L0 (no aggregation),control sections,170.0,0.23183925811437403
+k24,L0 (no aggregation),control sections,190.0,0.1885014137606032
+k24,L0 (no aggregation),control sections,210.0,0.3112033195020747
+k24,L0 (no aggregation),control sections,230.0,0.4231311706629055
+k24,L0 (no aggregation),control sections,250.0,0.7861635220125787
+k24,L0 (no aggregation),control sections,270.0,0.468384074941452
+k24,L0 (no aggregation),control sections,290.0,0.6535947712418301
+k24,L1,control sections,-290.0,1.5295095594347465
+k24,L1,control sections,-270.0,1.3519344167985041
+k24,L1,control sections,-250.0,1.4313919052319843
+k24,L1,control sections,-230.0,1.4901543374135178
+k24,L1,control sections,-210.0,1.874151199637845
+k24,L1,control sections,-190.0,1.8004903463070794
+k24,L1,control sections,-170.0,2.22001982160555
+k24,L1,control sections,-150.0,2.362966096573397
+k24,L1,control sections,-130.0,2.391280772150526
+k24,L1,control sections,-110.0,2.6373180504133487
+k24,L1,control sections,-90.0,3.2536711776562046
+k24,L1,control sections,-70.0,3.112803874547421
+k24,L1,control sections,-50.0,3.2056990204808544
+k24,L1,control sections,-30.0,2.937920463254705
+k24,L1,control sections,-10.0,2.28740581270183
+k24,L1,control sections,10.0,2.0735155513666355
+k24,L1,control sections,30.0,1.7995264404104185
+k24,L1,control sections,50.0,0.6850406245021508
+k24,L1,control sections,70.0,0.07151370679380215
+k24,L1,control sections,90.0,0.0
+k24,L1,control sections,110.0,0.13357079252003562
+k24,L1,control sections,130.0,0.0
+k24,L1,control sections,150.0,0.0
+k24,L1,control sections,170.0,0.0
+k24,L1,control sections,190.0,0.0
+k24,L1,control sections,210.0,0.0
+k24,L1,control sections,230.0,0.0
+k24,L1,control sections,250.0,0.0
+k24,L1,control sections,270.0,0.0
+k24,L1,control sections,290.0,0.0
+k24,L2,control sections,-290.0,3.8237738985868663
+k24,L2,control sections,-270.0,3.5524234143535165
+k24,L2,control sections,-250.0,3.2206317867719645
+k24,L2,control sections,-230.0,3.991484832357637
+k24,L2,control sections,-210.0,4.626527840651878
+k24,L2,control sections,-190.0,4.80386147716825
+k24,L2,control sections,-170.0,5.133795837462834
+k24,L2,control sections,-150.0,6.212606514776092
+k24,L2,control sections,-130.0,6.7671619130246174
+k24,L2,control sections,-110.0,7.4352081959730185
+k24,L2,control sections,-90.0,8.489298397159036
+k24,L2,control sections,-70.0,8.365072647764142
+k24,L2,control sections,-50.0,10.418521816562778
+k24,L2,control sections,-30.0,15.174997871072126
+k24,L2,control sections,-10.0,17.357373519913885
+k24,L2,control sections,10.0,19.698397737983033
+k24,L2,control sections,30.0,22.620363062352013
+k24,L2,control sections,50.0,14.752270192767245
+k24,L2,control sections,70.0,2.7413587604290823
+k24,L2,control sections,90.0,0.3487966515521451
+k24,L2,control sections,110.0,0.22261798753339268
+k24,L2,control sections,130.0,0.1537672988211174
+k24,L2,control sections,150.0,0.12804097311139565
+k24,L2,control sections,170.0,0.0
+k24,L2,control sections,190.0,0.1885014137606032
+k24,L2,control sections,210.0,0.2074688796680498
+k24,L2,control sections,230.0,0.14104372355430184
+k24,L2,control sections,250.0,0.0
+k24,L2,control sections,270.0,0.0
+k24,L2,control sections,290.0,0.0
+k24,L3,control sections,-290.0,4.322527015793849
+k24,L3,control sections,-270.0,3.710628505681001
+k24,L3,control sections,-250.0,4.035044422507403
+k24,L3,control sections,-230.0,4.449175093134646
+k24,L3,control sections,-210.0,5.4775916704391125
+k24,L3,control sections,-190.0,5.63898253141281
+k24,L3,control sections,-170.0,6.323092170465808
+k24,L3,control sections,-150.0,7.765758143470116
+k24,L3,control sections,-130.0,8.301702635289015
+k24,L3,control sections,-110.0,9.4740579195618
+k24,L3,control sections,-90.0,10.442460888760916
+k24,L3,control sections,-70.0,11.021770818639206
+k24,L3,control sections,-50.0,12.613273270127284
+k24,L3,control sections,-30.0,14.893979391978199
+k24,L3,control sections,-10.0,16.03875134553283
+k24,L3,control sections,10.0,17.4363807728558
+k24,L3,control sections,30.0,20.015785319652725
+k24,L3,control sections,50.0,13.876055440497053
+k24,L3,control sections,70.0,3.265792610250298
+k24,L3,control sections,90.0,0.3487966515521451
+k24,L3,control sections,110.0,0.08904719501335707
+k24,L3,control sections,130.0,0.05125576627370579
+k24,L3,control sections,150.0,0.0
+k24,L3,control sections,170.0,0.0
+k24,L3,control sections,190.0,0.0
+k24,L3,control sections,210.0,0.0
+k24,L3,control sections,230.0,0.0
+k24,L3,control sections,250.0,0.0
+k24,L3,control sections,270.0,0.0
+k24,L3,control sections,290.0,0.0
+k24,L5,control sections,-290.0,4.605153782211139
+k24,L5,control sections,-270.0,3.7681576298000863
+k24,L5,control sections,-250.0,3.98568608094768
+k24,L5,control sections,-230.0,4.3214475784992015
+k24,L5,control sections,-210.0,5.368945224083296
+k24,L5,control sections,-190.0,5.240576156910818
+k24,L5,control sections,-170.0,5.840766435414602
+k24,L5,control sections,-150.0,6.750468362845228
+k24,L5,control sections,-130.0,7.618479557531721
+k24,L5,control sections,-110.0,8.343054217172998
+k24,L5,control sections,-90.0,9.477876955561953
+k24,L5,control sections,-70.0,10.067240325386749
+k24,L5,control sections,-50.0,10.648996909538527
+k24,L5,control sections,-30.0,10.040023843992167
+k24,L5,control sections,-10.0,9.14962325080732
+k24,L5,control sections,10.0,9.205152371976123
+k24,L5,control sections,30.0,10.05524861878453
+k24,L5,control sections,50.0,5.958260315437311
+k24,L5,control sections,70.0,1.1442193087008343
+k24,L5,control sections,90.0,0.10463899546564352
+k24,L5,control sections,110.0,0.13357079252003562
+k24,L5,control sections,130.0,0.0
+k24,L5,control sections,150.0,0.0
+k24,L5,control sections,170.0,0.0
+k24,L5,control sections,190.0,0.0
+k24,L5,control sections,210.0,0.0
+k24,L5,control sections,230.0,0.0
+k24,L5,control sections,250.0,0.0
+k24,L5,control sections,270.0,0.0
+k24,L5,control sections,290.0,0.0
+k24,L3 shuffled within territory,control sections,-290.0,8.478802992518704
+k24,L3 shuffled within territory,control sections,-270.0,9.103983891845246
+k24,L3 shuffled within territory,control sections,-250.0,9.501480750246792
+k24,L3 shuffled within territory,control sections,-230.0,9.824374667376263
+k24,L3 shuffled within territory,control sections,-210.0,9.008601177003168
+k24,L3 shuffled within territory,control sections,-190.0,8.987128409439167
+k24,L3 shuffled within territory,control sections,-170.0,9.42847703997357
+k24,L3 shuffled within territory,control sections,-150.0,9.433734211639571
+k24,L3 shuffled within territory,control sections,-130.0,9.174709901312223
+k24,L3 shuffled within territory,control sections,-110.0,9.195110818075772
+k24,L3 shuffled within territory,control sections,-90.0,9.420289855072465
+k24,L3 shuffled within territory,control sections,-70.0,9.752198241406875
+k24,L3 shuffled within territory,control sections,-50.0,10.554711644230265
+k24,L3 shuffled within territory,control sections,-30.0,11.1300349144171
+k24,L3 shuffled within territory,control sections,-10.0,11.59849300322928
+k24,L3 shuffled within territory,control sections,10.0,29.846057178762177
+k24,L3 shuffled within territory,control sections,30.0,18.958168902920285
+k24,L3 shuffled within territory,control sections,50.0,8.427592799107854
+k24,L3 shuffled within territory,control sections,70.0,4.314660309892729
+k24,L3 shuffled within territory,control sections,90.0,3.627485176142309
+k24,L3 shuffled within territory,control sections,110.0,3.250222617987533
+k24,L3 shuffled within territory,control sections,130.0,1.9477191184008202
+k24,L3 shuffled within territory,control sections,150.0,2.9449423815621
+k24,L3 shuffled within territory,control sections,170.0,2.936630602782071
+k24,L3 shuffled within territory,control sections,190.0,2.7332704995287465
+k24,L3 shuffled within territory,control sections,210.0,2.3858921161825726
+k24,L3 shuffled within territory,control sections,230.0,2.6798307475317347
+k24,L3 shuffled within territory,control sections,250.0,0.7861635220125787
+k24,L3 shuffled within territory,control sections,270.0,2.3419203747072603
+k24,L3 shuffled within territory,control sections,290.0,1.9607843137254901
+k36,L0 (no aggregation),control sections,-290.0,4.089775561097256
+k36,L0 (no aggregation),control sections,-270.0,3.753775348770315
+k36,L0 (no aggregation),control sections,-250.0,4.244817374136229
+k36,L0 (no aggregation),control sections,-230.0,4.523682810005322
+k36,L0 (no aggregation),control sections,-210.0,4.219103666817565
+k36,L0 (no aggregation),control sections,-190.0,4.137296965982225
+k36,L0 (no aggregation),control sections,-170.0,4.17575156921044
+k36,L0 (no aggregation),control sections,-150.0,4.0430289478455315
+k36,L0 (no aggregation),control sections,-130.0,4.055959223511549
+k36,L0 (no aggregation),control sections,-110.0,4.224780646142922
+k36,L0 (no aggregation),control sections,-90.0,4.184662635569633
+k36,L0 (no aggregation),control sections,-70.0,3.700568956599427
+k36,L0 (no aggregation),control sections,-50.0,4.358074485359594
+k36,L0 (no aggregation),control sections,-30.0,6.369752192795708
+k36,L0 (no aggregation),control sections,-10.0,6.270182992465016
+k36,L0 (no aggregation),control sections,10.0,6.063462142632736
+k36,L0 (no aggregation),control sections,30.0,3.835832675611681
+k36,L0 (no aggregation),control sections,50.0,1.6887047952843717
+k36,L0 (no aggregation),control sections,70.0,0.7151370679380215
+k36,L0 (no aggregation),control sections,90.0,0.3487966515521451
+k36,L0 (no aggregation),control sections,110.0,0.04452359750667854
+k36,L0 (no aggregation),control sections,130.0,0.1537672988211174
+k36,L0 (no aggregation),control sections,150.0,0.0
+k36,L0 (no aggregation),control sections,170.0,0.38639876352395675
+k36,L0 (no aggregation),control sections,190.0,0.0
+k36,L0 (no aggregation),control sections,210.0,0.0
+k36,L0 (no aggregation),control sections,230.0,0.0
+k36,L0 (no aggregation),control sections,250.0,0.0
+k36,L0 (no aggregation),control sections,270.0,0.0
+k36,L0 (no aggregation),control sections,290.0,0.0
+k36,L1,control sections,-290.0,1.5295095594347465
+k36,L1,control sections,-270.0,1.6539623184237022
+k36,L1,control sections,-250.0,1.468410661401777
+k36,L1,control sections,-230.0,1.9159127195316656
+k36,L1,control sections,-210.0,2.3540063377093707
+k36,L1,control sections,-190.0,2.5130248237817963
+k36,L1,control sections,-170.0,2.8146679881070367
+k36,L1,control sections,-150.0,3.589774581495135
+k36,L1,control sections,-130.0,3.74688211690706
+k36,L1,control sections,-110.0,4.529086575036771
+k36,L1,control sections,-90.0,5.211632594298877
+k36,L1,control sections,-70.0,4.937226689236845
+k36,L1,control sections,-50.0,6.416636111256613
+k36,L1,control sections,-30.0,11.947543217235799
+k36,L1,control sections,-10.0,15.446716899892357
+k36,L1,control sections,10.0,18.001885014137606
+k36,L1,control sections,30.0,18.97395422257301
+k36,L1,control sections,50.0,12.04397004938665
+k36,L1,control sections,70.0,2.932061978545888
+k36,L1,control sections,90.0,0.9417509591907918
+k36,L1,control sections,110.0,1.1130899376669634
+k36,L1,control sections,130.0,0.5638134290107637
+k36,L1,control sections,150.0,0.2560819462227913
+k36,L1,control sections,170.0,0.23183925811437403
+k36,L1,control sections,190.0,0.2827521206409048
+k36,L1,control sections,210.0,0.4149377593360996
+k36,L1,control sections,230.0,0.2820874471086037
+k36,L1,control sections,250.0,0.628930817610063
+k36,L1,control sections,270.0,0.468384074941452
+k36,L1,control sections,290.0,0.32679738562091504
+k36,L2,control sections,-290.0,2.4605153782211135
+k36,L2,control sections,-270.0,2.8333093628649504
+k36,L2,control sections,-250.0,2.6283316880552814
+k36,L2,control sections,-230.0,2.8738690792974984
+k36,L2,control sections,-210.0,3.8569488456315075
+k36,L2,control sections,-190.0,3.8231688630095
+k36,L2,control sections,-170.0,4.380574826560951
+k36,L2,control sections,-150.0,5.680788058258295
+k36,L2,control sections,-130.0,6.58280013013773
+k36,L2,control sections,-110.0,7.135974032560734
+k36,L2,control sections,-90.0,8.46050484691429
+k36,L2,control sections,-70.0,8.647199887149103
+k36,L2,control sections,-50.0,11.581373422031325
+k36,L2,control sections,-30.0,16.290556075960147
+k36,L2,control sections,-10.0,19.940796555435952
+k36,L2,control sections,10.0,22.08608231228401
+k36,L2,control sections,30.0,23.741120757695345
+k36,L2,control sections,50.0,16.807392066273696
+k36,L2,control sections,70.0,4.767580452920143
+k36,L2,control sections,90.0,0.9766306243460063
+k36,L2,control sections,110.0,0.5342831700801425
+k36,L2,control sections,130.0,0.5125576627370578
+k36,L2,control sections,150.0,0.3201024327784891
+k36,L2,control sections,170.0,0.1545595054095827
+k36,L2,control sections,190.0,0.0
+k36,L2,control sections,210.0,0.0
+k36,L2,control sections,230.0,0.0
+k36,L2,control sections,250.0,0.0
+k36,L2,control sections,270.0,0.234192037470726
+k36,L2,control sections,290.0,0.0
+k36,L3,control sections,-290.0,3.8403990024937653
+k36,L3,control sections,-270.0,3.6818639436214586
+k36,L3,control sections,-250.0,3.3933859822309973
+k36,L3,control sections,-230.0,3.853113358169239
+k36,L3,control sections,-210.0,4.843820733363513
+k36,L3,control sections,-190.0,4.957094698130555
+k36,L3,control sections,-170.0,5.497191939213743
+k36,L3,control sections,-150.0,6.847162627666646
+k36,L3,control sections,-130.0,7.748617286628348
+k36,L3,control sections,-110.0,8.53070953999087
+k36,L3,control sections,-90.0,10.044150110375275
+k36,L3,control sections,-70.0,10.645601166125923
+k36,L3,control sections,-50.0,13.52469750144047
+k36,L3,control sections,-30.0,17.77228987481904
+k36,L3,control sections,-10.0,19.88697524219591
+k36,L3,control sections,10.0,20.263901979264844
+k36,L3,control sections,30.0,20.189423835832677
+k36,L3,control sections,50.0,10.976581169348416
+k36,L3,control sections,70.0,2.169249106078665
+k36,L3,control sections,90.0,0.13951866062085805
+k36,L3,control sections,110.0,0.08904719501335707
+k36,L3,control sections,130.0,0.0
+k36,L3,control sections,150.0,0.0
+k36,L3,control sections,170.0,0.0
+k36,L3,control sections,190.0,0.0
+k36,L3,control sections,210.0,0.0
+k36,L3,control sections,230.0,0.0
+k36,L3,control sections,250.0,0.0
+k36,L3,control sections,270.0,0.0
+k36,L3,control sections,290.0,0.0
+k36,L5,control sections,-290.0,4.239401496259352
+k36,L5,control sections,-270.0,4.127714655544369
+k36,L5,control sections,-250.0,4.170779861796644
+k36,L5,control sections,-230.0,4.832357637040979
+k36,L5,control sections,-210.0,6.428248076052512
+k36,L5,control sections,-190.0,6.489426907753601
+k36,L5,control sections,-170.0,7.776676577469442
+k36,L5,control sections,-150.0,9.034870369251225
+k36,L5,control sections,-130.0,10.280880598633555
+k36,L5,control sections,-110.0,11.933864178120404
+k36,L5,control sections,-90.0,14.190421345618581
+k36,L5,control sections,-70.0,15.719189354398832
+k36,L5,control sections,-50.0,18.95657639725525
+k36,L5,control sections,-30.0,22.643276845780466
+k36,L5,control sections,-10.0,23.57373519913886
+k36,L5,control sections,10.0,23.499842915488532
+k36,L5,control sections,30.0,24.609313338595108
+k36,L5,control sections,50.0,14.274334873347142
+k36,L5,control sections,70.0,4.100119189511323
+k36,L5,control sections,90.0,0.4185559818625741
+k36,L5,control sections,110.0,0.3116651825467498
+k36,L5,control sections,130.0,0.05125576627370579
+k36,L5,control sections,150.0,0.0
+k36,L5,control sections,170.0,0.0
+k36,L5,control sections,190.0,0.0
+k36,L5,control sections,210.0,0.0
+k36,L5,control sections,230.0,0.0
+k36,L5,control sections,250.0,0.0
+k36,L5,control sections,270.0,0.0
+k36,L5,control sections,290.0,0.0
+k36,L3 shuffled within territory,control sections,-290.0,4.771404821280132
+k36,L3 shuffled within territory,control sections,-270.0,5.134474327628362
+k36,L3 shuffled within territory,control sections,-250.0,5.454096742349456
+k36,L3 shuffled within territory,control sections,-230.0,5.098456625864822
+k36,L3 shuffled within territory,control sections,-210.0,5.043005885015845
+k36,L3 shuffled within territory,control sections,-190.0,5.056696291756053
+k36,L3 shuffled within territory,control sections,-170.0,5.067723818962669
+k36,L3 shuffled within territory,control sections,-150.0,5.269837432767269
+k36,L3 shuffled within territory,control sections,-130.0,5.151285110074829
+k36,L3 shuffled within territory,control sections,-110.0,5.137698432824466
+k36,L3 shuffled within territory,control sections,-90.0,5.053268067952779
+k36,L3 shuffled within territory,control sections,-70.0,5.172332722057648
+k36,L3 shuffled within territory,control sections,-50.0,4.887119585144832
+k36,L3 shuffled within territory,control sections,-30.0,5.0072383547645405
+k36,L3 shuffled within territory,control sections,-10.0,4.332615715823466
+k36,L3 shuffled within territory,control sections,10.0,1.9478479421928998
+k36,L3 shuffled within territory,control sections,30.0,1.4048934490923441
+k36,L3 shuffled within territory,control sections,50.0,0.6691094471881472
+k36,L3 shuffled within territory,control sections,70.0,0.45292014302741357
+k36,L3 shuffled within territory,control sections,90.0,0.20927799093128704
+k36,L3 shuffled within territory,control sections,110.0,0.08904719501335707
+k36,L3 shuffled within territory,control sections,130.0,0.1537672988211174
+k36,L3 shuffled within territory,control sections,150.0,0.3201024327784891
+k36,L3 shuffled within territory,control sections,170.0,0.0
+k36,L3 shuffled within territory,control sections,190.0,0.0942507068803016
+k36,L3 shuffled within territory,control sections,210.0,0.3112033195020747
+k36,L3 shuffled within territory,control sections,230.0,0.2820874471086037
+k36,L3 shuffled within territory,control sections,250.0,0.4716981132075472
+k36,L3 shuffled within territory,control sections,270.0,0.234192037470726
+k36,L3 shuffled within territory,control sections,290.0,0.0
+k12,L0 (no aggregation),CupRap sections,-290.0,12.798194713088328
+k12,L0 (no aggregation),CupRap sections,-270.0,13.481278717372177
+k12,L0 (no aggregation),CupRap sections,-250.0,12.642317150924493
+k12,L0 (no aggregation),CupRap sections,-230.0,12.901297814207648
+k12,L0 (no aggregation),CupRap sections,-210.0,12.011173184357542
+k12,L0 (no aggregation),CupRap sections,-190.0,11.264720942140297
+k12,L0 (no aggregation),CupRap sections,-170.0,10.187777398429498
+k12,L0 (no aggregation),CupRap sections,-150.0,9.323994345199846
+k12,L0 (no aggregation),CupRap sections,-130.0,9.078914300075395
+k12,L0 (no aggregation),CupRap sections,-110.0,8.378659170078837
+k12,L0 (no aggregation),CupRap sections,-90.0,7.809973883845293
+k12,L0 (no aggregation),CupRap sections,-70.0,7.589964521033958
+k12,L0 (no aggregation),CupRap sections,-50.0,8.603646481657758
+k12,L0 (no aggregation),CupRap sections,-30.0,10.267594011552516
+k12,L0 (no aggregation),CupRap sections,-10.0,11.879576891781937
+k12,L0 (no aggregation),CupRap sections,10.0,8.029878618113912
+k12,L0 (no aggregation),CupRap sections,30.0,3.0925925925925926
+k12,L0 (no aggregation),CupRap sections,50.0,0.6860776439089692
+k12,L0 (no aggregation),CupRap sections,70.0,0.19019442096365174
+k12,L0 (no aggregation),CupRap sections,90.0,0.18363064008394542
+k12,L0 (no aggregation),CupRap sections,110.0,0.03002101471029721
+k12,L0 (no aggregation),CupRap sections,130.0,0.0
+k12,L0 (no aggregation),CupRap sections,150.0,0.0
+k12,L0 (no aggregation),CupRap sections,170.0,0.0
+k12,L0 (no aggregation),CupRap sections,190.0,0.0
+k12,L0 (no aggregation),CupRap sections,210.0,0.0
+k12,L0 (no aggregation),CupRap sections,230.0,0.0
+k12,L0 (no aggregation),CupRap sections,250.0,0.0
+k12,L0 (no aggregation),CupRap sections,270.0,0.0
+k12,L0 (no aggregation),CupRap sections,290.0,0.0
+k12,L1,CupRap sections,-290.0,10.1010101010101
+k12,L1,CupRap sections,-270.0,10.08896275295728
+k12,L1,CupRap sections,-250.0,11.221422716094361
+k12,L1,CupRap sections,-230.0,11.910860655737705
+k12,L1,CupRap sections,-210.0,12.80925778132482
+k12,L1,CupRap sections,-190.0,13.290907760953843
+k12,L1,CupRap sections,-170.0,14.578354387162854
+k12,L1,CupRap sections,-150.0,15.749903611361008
+k12,L1,CupRap sections,-130.0,16.084443327469213
+k12,L1,CupRap sections,-110.0,17.197335451934244
+k12,L1,CupRap sections,-90.0,16.913319238900634
+k12,L1,CupRap sections,-70.0,16.820831221490117
+k12,L1,CupRap sections,-50.0,16.789924580801056
+k12,L1,CupRap sections,-30.0,17.647058823529413
+k12,L1,CupRap sections,-10.0,17.12774613506916
+k12,L1,CupRap sections,10.0,14.098972922502334
+k12,L1,CupRap sections,30.0,11.240740740740742
+k12,L1,CupRap sections,50.0,3.681392235609103
+k12,L1,CupRap sections,70.0,1.1200338123415046
+k12,L1,CupRap sections,90.0,0.7607555089192025
+k12,L1,CupRap sections,110.0,0.7805463824677273
+k12,L1,CupRap sections,130.0,0.6139154160982265
+k12,L1,CupRap sections,150.0,0.10984987184181619
+k12,L1,CupRap sections,170.0,0.08261049153242463
+k12,L1,CupRap sections,190.0,0.1314060446780552
+k12,L1,CupRap sections,210.0,0.08912655971479501
+k12,L1,CupRap sections,230.0,0.0
+k12,L1,CupRap sections,250.0,0.0
+k12,L1,CupRap sections,270.0,0.0
+k12,L1,CupRap sections,290.0,0.06476683937823835
+k12,L2,CupRap sections,-290.0,8.54287556415216
+k12,L2,CupRap sections,-270.0,8.984260436015251
+k12,L2,CupRap sections,-250.0,9.51817105383004
+k12,L2,CupRap sections,-230.0,10.399590163934427
+k12,L2,CupRap sections,-210.0,11.013567438148444
+k12,L2,CupRap sections,-190.0,11.820642235388778
+k12,L2,CupRap sections,-170.0,13.253670194605668
+k12,L2,CupRap sections,-150.0,14.323351754273231
+k12,L2,CupRap sections,-130.0,15.198542347323448
+k12,L2,CupRap sections,-110.0,16.470084947747967
+k12,L2,CupRap sections,-90.0,16.0676532769556
+k12,L2,CupRap sections,-70.0,15.762797769893563
+k12,L2,CupRap sections,-50.0,15.654975470454712
+k12,L2,CupRap sections,-30.0,16.621478250618885
+k12,L2,CupRap sections,-10.0,15.459723352318958
+k12,L2,CupRap sections,10.0,12.231559290382819
+k12,L2,CupRap sections,30.0,9.222222222222221
+k12,L2,CupRap sections,50.0,2.8279785809906293
+k12,L2,CupRap sections,70.0,0.8664412510566356
+k12,L2,CupRap sections,90.0,0.49842602308499473
+k12,L2,CupRap sections,110.0,0.15010507355148606
+k12,L2,CupRap sections,130.0,0.4092769440654843
+k12,L2,CupRap sections,150.0,0.07323324789454412
+k12,L2,CupRap sections,170.0,0.0
+k12,L2,CupRap sections,190.0,0.0
+k12,L2,CupRap sections,210.0,0.0
+k12,L2,CupRap sections,230.0,0.05282620179609086
+k12,L2,CupRap sections,250.0,0.0
+k12,L2,CupRap sections,270.0,0.0
+k12,L2,CupRap sections,290.0,0.0
+k12,L3,CupRap sections,-290.0,9.767891682785299
+k12,L3,CupRap sections,-270.0,10.372470427216737
+k12,L3,CupRap sections,-250.0,10.401675926769286
+k12,L3,CupRap sections,-230.0,11.057035519125682
+k12,L3,CupRap sections,-210.0,11.644054269752594
+k12,L3,CupRap sections,-190.0,12.01814058956916
+k12,L3,CupRap sections,-170.0,12.427449641515874
+k12,L3,CupRap sections,-150.0,13.455854003341472
+k12,L3,CupRap sections,-130.0,14.262377481779343
+k12,L3,CupRap sections,-110.0,14.820020778585835
+k12,L3,CupRap sections,-90.0,16.07387140902873
+k12,L3,CupRap sections,-70.0,16.35200202736949
+k12,L3,CupRap sections,-50.0,17.910229186497766
+k12,L3,CupRap sections,-30.0,21.006719320994932
+k12,L3,CupRap sections,-10.0,20.82994304312449
+k12,L3,CupRap sections,10.0,22.875816993464053
+k12,L3,CupRap sections,30.0,19.24074074074074
+k12,L3,CupRap sections,50.0,6.208165997322624
+k12,L3,CupRap sections,70.0,0.4437869822485207
+k12,L3,CupRap sections,90.0,0.0
+k12,L3,CupRap sections,110.0,0.0
+k12,L3,CupRap sections,130.0,0.0
+k12,L3,CupRap sections,150.0,0.0
+k12,L3,CupRap sections,170.0,0.0
+k12,L3,CupRap sections,190.0,0.0
+k12,L3,CupRap sections,210.0,0.0
+k12,L3,CupRap sections,230.0,0.0
+k12,L3,CupRap sections,250.0,0.0
+k12,L3,CupRap sections,270.0,0.0
+k12,L3,CupRap sections,290.0,0.0
+k12,L5,CupRap sections,-290.0,18.063614872125513
+k12,L5,CupRap sections,-270.0,19.454492130218007
+k12,L5,CupRap sections,-250.0,19.646598050824302
+k12,L5,CupRap sections,-230.0,19.800204918032787
+k12,L5,CupRap sections,-210.0,18.14844373503591
+k12,L5,CupRap sections,-190.0,16.882451905493383
+k12,L5,CupRap sections,-170.0,15.363605326049845
+k12,L5,CupRap sections,-150.0,14.349055391337876
+k12,L5,CupRap sections,-130.0,13.847700427243026
+k12,L5,CupRap sections,-110.0,13.188290655747723
+k12,L5,CupRap sections,-90.0,12.97724163661236
+k12,L5,CupRap sections,-70.0,13.089204257475926
+k12,L5,CupRap sections,-50.0,14.83488321007542
+k12,L5,CupRap sections,-30.0,18.59012141930921
+k12,L5,CupRap sections,-10.0,21.31814483319772
+k12,L5,CupRap sections,10.0,18.440709617180207
+k12,L5,CupRap sections,30.0,11.037037037037036
+k12,L5,CupRap sections,50.0,3.4805890227576977
+k12,L5,CupRap sections,70.0,0.591715976331361
+k12,L5,CupRap sections,90.0,0.15739769150052466
+k12,L5,CupRap sections,110.0,0.0
+k12,L5,CupRap sections,130.0,0.0
+k12,L5,CupRap sections,150.0,0.0
+k12,L5,CupRap sections,170.0,0.0
+k12,L5,CupRap sections,190.0,0.0
+k12,L5,CupRap sections,210.0,0.0
+k12,L5,CupRap sections,230.0,0.0
+k12,L5,CupRap sections,250.0,0.0
+k12,L5,CupRap sections,270.0,0.0
+k12,L5,CupRap sections,290.0,0.0
+k12,L3 shuffled within territory,CupRap sections,-290.0,5.426606490436278
+k12,L3 shuffled within territory,CupRap sections,-270.0,5.3377651774367
+k12,L3 shuffled within territory,CupRap sections,-250.0,5.3921122142271605
+k12,L3 shuffled within territory,CupRap sections,-230.0,5.558401639344263
+k12,L3 shuffled within territory,CupRap sections,-210.0,5.379090183559457
+k12,L3 shuffled within territory,CupRap sections,-190.0,5.6031014556360175
+k12,L3 shuffled within territory,CupRap sections,-170.0,5.742574257425743
+k12,L3 shuffled within territory,CupRap sections,-150.0,5.854003341472818
+k12,L3 shuffled within territory,CupRap sections,-130.0,5.912289519979894
+k12,L3 shuffled within territory,CupRap sections,-110.0,6.227464401393387
+k12,L3 shuffled within territory,CupRap sections,-90.0,6.224350205198358
+k12,L3 shuffled within territory,CupRap sections,-70.0,6.3608717688798775
+k12,L3 shuffled within territory,CupRap sections,-50.0,5.696712308706158
+k12,L3 shuffled within territory,CupRap sections,-30.0,4.349876223034304
+k12,L3 shuffled within territory,CupRap sections,-10.0,3.091944670463792
+k12,L3 shuffled within territory,CupRap sections,10.0,0.6069094304388423
+k12,L3 shuffled within territory,CupRap sections,30.0,0.12962962962962962
+k12,L3 shuffled within territory,CupRap sections,50.0,0.0502008032128514
+k12,L3 shuffled within territory,CupRap sections,70.0,0.0
+k12,L3 shuffled within territory,CupRap sections,90.0,0.0
+k12,L3 shuffled within territory,CupRap sections,110.0,0.0
+k12,L3 shuffled within territory,CupRap sections,130.0,0.0
+k12,L3 shuffled within territory,CupRap sections,150.0,0.0
+k12,L3 shuffled within territory,CupRap sections,170.0,0.0
+k12,L3 shuffled within territory,CupRap sections,190.0,0.0
+k12,L3 shuffled within territory,CupRap sections,210.0,0.0
+k12,L3 shuffled within territory,CupRap sections,230.0,0.0
+k12,L3 shuffled within territory,CupRap sections,250.0,0.0
+k12,L3 shuffled within territory,CupRap sections,270.0,0.0
+k12,L3 shuffled within territory,CupRap sections,290.0,0.0
+k24,L0 (no aggregation),CupRap sections,-290.0,5.286911669890394
+k24,L0 (no aggregation),CupRap sections,-270.0,5.142242643464659
+k24,L0 (no aggregation),CupRap sections,-250.0,5.446762000182166
+k24,L0 (no aggregation),CupRap sections,-230.0,5.660860655737705
+k24,L0 (no aggregation),CupRap sections,-210.0,6.384676775738228
+k24,L0 (no aggregation),CupRap sections,-190.0,6.6783702728403185
+k24,L0 (no aggregation),CupRap sections,-170.0,7.5315807442813245
+k24,L0 (no aggregation),CupRap sections,-150.0,8.205886132887803
+k24,L0 (no aggregation),CupRap sections,-130.0,8.965820557929128
+k24,L0 (no aggregation),CupRap sections,-110.0,9.41147711299884
+k24,L0 (no aggregation),CupRap sections,-90.0,8.568585996766572
+k24,L0 (no aggregation),CupRap sections,-70.0,8.426254434870756
+k24,L0 (no aggregation),CupRap sections,-50.0,7.790876473603281
+k24,L0 (no aggregation),CupRap sections,-30.0,6.860780384298009
+k24,L0 (no aggregation),CupRap sections,-10.0,6.265256305939788
+k24,L0 (no aggregation),CupRap sections,10.0,4.3884220354808585
+k24,L0 (no aggregation),CupRap sections,30.0,2.666666666666667
+k24,L0 (no aggregation),CupRap sections,50.0,0.8701472556894244
+k24,L0 (no aggregation),CupRap sections,70.0,0.422654268808115
+k24,L0 (no aggregation),CupRap sections,90.0,0.4459601259181532
+k24,L0 (no aggregation),CupRap sections,110.0,0.24016811768237767
+k24,L0 (no aggregation),CupRap sections,130.0,0.3751705320600273
+k24,L0 (no aggregation),CupRap sections,150.0,0.03661662394727206
+k24,L0 (no aggregation),CupRap sections,170.0,0.08261049153242463
+k24,L0 (no aggregation),CupRap sections,190.0,0.043802014892685065
+k24,L0 (no aggregation),CupRap sections,210.0,0.0
+k24,L0 (no aggregation),CupRap sections,230.0,0.05282620179609086
+k24,L0 (no aggregation),CupRap sections,250.0,0.0
+k24,L0 (no aggregation),CupRap sections,270.0,0.0
+k24,L0 (no aggregation),CupRap sections,290.0,0.0
+k24,L1,CupRap sections,-290.0,5.243928648183967
+k24,L1,CupRap sections,-270.0,5.464854824518526
+k24,L1,CupRap sections,-250.0,5.883960287822206
+k24,L1,CupRap sections,-230.0,5.823087431693989
+k24,L1,CupRap sections,-210.0,6.288906624102155
+k24,L1,CupRap sections,-190.0,6.7222587959915145
+k24,L1,CupRap sections,-170.0,6.903379993171731
+k24,L1,CupRap sections,-150.0,7.454054748746948
+k24,L1,CupRap sections,-130.0,7.6463935662226685
+k24,L1,CupRap sections,-110.0,8.042534987471734
+k24,L1,CupRap sections,-90.0,8.475314015669692
+k24,L1,CupRap sections,-70.0,8.388241256969083
+k24,L1,CupRap sections,-50.0,9.482316760635571
+k24,L1,CupRap sections,-30.0,11.705764470116705
+k24,L1,CupRap sections,-10.0,12.611879576891782
+k24,L1,CupRap sections,10.0,15.079365079365079
+k24,L1,CupRap sections,30.0,14.25925925925926
+k24,L1,CupRap sections,50.0,5.8902275769745644
+k24,L1,CupRap sections,70.0,0.84530853761623
+k24,L1,CupRap sections,90.0,0.5508919202518363
+k24,L1,CupRap sections,110.0,0.3602521765235665
+k24,L1,CupRap sections,130.0,0.1364256480218281
+k24,L1,CupRap sections,150.0,0.07323324789454412
+k24,L1,CupRap sections,170.0,0.12391573729863693
+k24,L1,CupRap sections,190.0,0.1314060446780552
+k24,L1,CupRap sections,210.0,0.08912655971479501
+k24,L1,CupRap sections,230.0,0.10565240359218173
+k24,L1,CupRap sections,250.0,0.0
+k24,L1,CupRap sections,270.0,0.0
+k24,L1,CupRap sections,290.0,0.0
+k24,L2,CupRap sections,-290.0,5.029013539651837
+k24,L2,CupRap sections,-270.0,5.259556163847883
+k24,L2,CupRap sections,-250.0,5.601603060388014
+k24,L2,CupRap sections,-230.0,6.0109289617486334
+k24,L2,CupRap sections,-210.0,6.759776536312849
+k24,L2,CupRap sections,-190.0,7.2196620583717355
+k24,L2,CupRap sections,-170.0,7.360874018436327
+k24,L2,CupRap sections,-150.0,7.627554298933299
+k24,L2,CupRap sections,-130.0,7.916561950238754
+k24,L2,CupRap sections,-110.0,8.439772657825582
+k24,L2,CupRap sections,-90.0,9.184181072005968
+k24,L2,CupRap sections,-70.0,9.053471870248353
+k24,L2,CupRap sections,-50.0,10.243831002416343
+k24,L2,CupRap sections,-30.0,14.369916303194625
+k24,L2,CupRap sections,-10.0,14.890154597233524
+k24,L2,CupRap sections,10.0,16.85340802987862
+k24,L2,CupRap sections,30.0,15.092592592592593
+k24,L2,CupRap sections,50.0,4.400937081659973
+k24,L2,CupRap sections,70.0,0.422654268808115
+k24,L2,CupRap sections,90.0,0.13116474291710387
+k24,L2,CupRap sections,110.0,0.09006304413089163
+k24,L2,CupRap sections,130.0,0.034106412005457026
+k24,L2,CupRap sections,150.0,0.0
+k24,L2,CupRap sections,170.0,0.0
+k24,L2,CupRap sections,190.0,0.0
+k24,L2,CupRap sections,210.0,0.0
+k24,L2,CupRap sections,230.0,0.0
+k24,L2,CupRap sections,250.0,0.0
+k24,L2,CupRap sections,270.0,0.0
+k24,L2,CupRap sections,290.0,0.0
+k24,L3,CupRap sections,-290.0,3.9974210186976147
+k24,L3,CupRap sections,-270.0,4.575227294945742
+k24,L3,CupRap sections,-250.0,4.317333090445396
+k24,L3,CupRap sections,-230.0,4.798497267759562
+k24,L3,CupRap sections,-210.0,4.748603351955307
+k24,L3,CupRap sections,-190.0,5.0691244239631335
+k24,L3,CupRap sections,-170.0,5.510413110276545
+k24,L3,CupRap sections,-150.0,5.943966071199075
+k24,L3,CupRap sections,-130.0,6.276702689117869
+k24,L3,CupRap sections,-110.0,6.239687098942737
+k24,L3,CupRap sections,-90.0,6.839945280437757
+k24,L3,CupRap sections,-70.0,7.140141915864167
+k24,L3,CupRap sections,-50.0,7.065973493446584
+k24,L3,CupRap sections,-30.0,7.238005422609926
+k24,L3,CupRap sections,-10.0,6.224572823433686
+k24,L3,CupRap sections,10.0,5.228758169934641
+k24,L3,CupRap sections,30.0,4.703703703703703
+k24,L3,CupRap sections,50.0,1.6900937081659972
+k24,L3,CupRap sections,70.0,0.10566356720202875
+k24,L3,CupRap sections,90.0,0.026232948583420776
+k24,L3,CupRap sections,110.0,0.0
+k24,L3,CupRap sections,130.0,0.034106412005457026
+k24,L3,CupRap sections,150.0,0.0
+k24,L3,CupRap sections,170.0,0.0
+k24,L3,CupRap sections,190.0,0.0
+k24,L3,CupRap sections,210.0,0.0
+k24,L3,CupRap sections,230.0,0.0
+k24,L3,CupRap sections,250.0,0.0
+k24,L3,CupRap sections,270.0,0.0
+k24,L3,CupRap sections,290.0,0.0
+k24,L5,CupRap sections,-290.0,5.738233397807866
+k24,L5,CupRap sections,-270.0,6.422915240981523
+k24,L5,CupRap sections,-250.0,6.011476455050551
+k24,L5,CupRap sections,-230.0,6.728142076502733
+k24,L5,CupRap sections,-210.0,6.576217079010376
+k24,L5,CupRap sections,-190.0,7.512252212713043
+k24,L5,CupRap sections,-170.0,7.872994195971321
+k24,L5,CupRap sections,-150.0,8.649273872252925
+k24,L5,CupRap sections,-130.0,9.46845941191254
+k24,L5,CupRap sections,-110.0,9.979832549043573
+k24,L5,CupRap sections,-90.0,10.583260788459146
+k24,L5,CupRap sections,-70.0,10.878104409528637
+k24,L5,CupRap sections,-50.0,12.037782821996046
+k24,L5,CupRap sections,-30.0,15.218672639396441
+k24,L5,CupRap sections,-10.0,14.5240032546786
+k24,L5,CupRap sections,10.0,16.246498599439775
+k24,L5,CupRap sections,30.0,14.555555555555555
+k24,L5,CupRap sections,50.0,5.622489959839357
+k24,L5,CupRap sections,70.0,0.8030431107354183
+k24,L5,CupRap sections,90.0,0.07869884575026233
+k24,L5,CupRap sections,110.0,0.06004202942059442
+k24,L5,CupRap sections,130.0,0.0
+k24,L5,CupRap sections,150.0,0.0
+k24,L5,CupRap sections,170.0,0.0
+k24,L5,CupRap sections,190.0,0.0
+k24,L5,CupRap sections,210.0,0.0
+k24,L5,CupRap sections,230.0,0.0
+k24,L5,CupRap sections,250.0,0.0
+k24,L5,CupRap sections,270.0,0.0
+k24,L5,CupRap sections,290.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-290.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-270.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-250.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-230.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-210.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-190.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-170.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-150.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-130.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-110.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-90.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-70.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-50.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-30.0,0.0
+k24,L3 shuffled within territory,CupRap sections,-10.0,0.0
+k24,L3 shuffled within territory,CupRap sections,10.0,0.0
+k24,L3 shuffled within territory,CupRap sections,30.0,0.0
+k24,L3 shuffled within territory,CupRap sections,50.0,0.0
+k24,L3 shuffled within territory,CupRap sections,70.0,0.0
+k24,L3 shuffled within territory,CupRap sections,90.0,0.0
+k24,L3 shuffled within territory,CupRap sections,110.0,0.0
+k24,L3 shuffled within territory,CupRap sections,130.0,0.0
+k24,L3 shuffled within territory,CupRap sections,150.0,0.0
+k24,L3 shuffled within territory,CupRap sections,170.0,0.0
+k24,L3 shuffled within territory,CupRap sections,190.0,0.0
+k24,L3 shuffled within territory,CupRap sections,210.0,0.0
+k24,L3 shuffled within territory,CupRap sections,230.0,0.0
+k24,L3 shuffled within territory,CupRap sections,250.0,0.0
+k24,L3 shuffled within territory,CupRap sections,270.0,0.0
+k24,L3 shuffled within territory,CupRap sections,290.0,0.0
+k36,L0 (no aggregation),CupRap sections,-290.0,1.2572533849129592
+k36,L0 (no aggregation),CupRap sections,-270.0,1.0460455567504154
+k36,L0 (no aggregation),CupRap sections,-250.0,1.038345933145095
+k36,L0 (no aggregation),CupRap sections,-230.0,0.8879781420765027
+k36,L0 (no aggregation),CupRap sections,-210.0,0.7262569832402235
+k36,L0 (no aggregation),CupRap sections,-190.0,0.7241606319947334
+k36,L0 (no aggregation),CupRap sections,-170.0,0.607715944008194
+k36,L0 (no aggregation),CupRap sections,-150.0,0.48194319496208715
+k36,L0 (no aggregation),CupRap sections,-130.0,0.4775069112842423
+k36,L0 (no aggregation),CupRap sections,-110.0,0.5316873433966876
+k36,L0 (no aggregation),CupRap sections,-90.0,0.43526924511876636
+k36,L0 (no aggregation),CupRap sections,-70.0,0.6335529650278764
+k36,L0 (no aggregation),CupRap sections,-50.0,0.7834809987552172
+k36,L0 (no aggregation),CupRap sections,-30.0,0.9784274431215372
+k36,L0 (no aggregation),CupRap sections,-10.0,1.1391375101708707
+k36,L0 (no aggregation),CupRap sections,10.0,0.700280112044818
+k36,L0 (no aggregation),CupRap sections,30.0,0.3148148148148148
+k36,L0 (no aggregation),CupRap sections,50.0,0.0502008032128514
+k36,L0 (no aggregation),CupRap sections,70.0,0.06339814032121724
+k36,L0 (no aggregation),CupRap sections,90.0,0.0
+k36,L0 (no aggregation),CupRap sections,110.0,0.03002101471029721
+k36,L0 (no aggregation),CupRap sections,130.0,0.0
+k36,L0 (no aggregation),CupRap sections,150.0,0.0
+k36,L0 (no aggregation),CupRap sections,170.0,0.0
+k36,L0 (no aggregation),CupRap sections,190.0,0.0
+k36,L0 (no aggregation),CupRap sections,210.0,0.044563279857397504
+k36,L0 (no aggregation),CupRap sections,230.0,0.0
+k36,L0 (no aggregation),CupRap sections,250.0,0.0
+k36,L0 (no aggregation),CupRap sections,270.0,0.0
+k36,L0 (no aggregation),CupRap sections,290.0,0.0
+k36,L1,CupRap sections,-290.0,0.7522028798624544
+k36,L1,CupRap sections,-270.0,0.9776126698602015
+k36,L1,CupRap sections,-250.0,1.0929957191001003
+k36,L1,CupRap sections,-230.0,1.1526639344262295
+k36,L1,CupRap sections,-210.0,1.1891460494812451
+k36,L1,CupRap sections,-190.0,1.206934386657889
+k36,L1,CupRap sections,-170.0,1.2222601570501879
+k36,L1,CupRap sections,-150.0,1.2016450327721373
+k36,L1,CupRap sections,-130.0,1.4262377481779343
+k36,L1,CupRap sections,-110.0,1.509503147344619
+k36,L1,CupRap sections,-90.0,1.8032583012063175
+k36,L1,CupRap sections,-70.0,1.6915864166244299
+k36,L1,CupRap sections,-50.0,1.3912279417148714
+k36,L1,CupRap sections,-30.0,1.9804314511375691
+k36,L1,CupRap sections,-10.0,2.3596419853539463
+k36,L1,CupRap sections,10.0,1.5873015873015872
+k36,L1,CupRap sections,30.0,1.2407407407407407
+k36,L1,CupRap sections,50.0,0.4518072289156626
+k36,L1,CupRap sections,70.0,0.12679628064243448
+k36,L1,CupRap sections,90.0,0.0
+k36,L1,CupRap sections,110.0,0.09006304413089163
+k36,L1,CupRap sections,130.0,0.1364256480218281
+k36,L1,CupRap sections,150.0,0.03661662394727206
+k36,L1,CupRap sections,170.0,0.0
+k36,L1,CupRap sections,190.0,0.0
+k36,L1,CupRap sections,210.0,0.0
+k36,L1,CupRap sections,230.0,0.10565240359218173
+k36,L1,CupRap sections,250.0,0.0
+k36,L1,CupRap sections,270.0,0.0
+k36,L1,CupRap sections,290.0,0.0
+k36,L2,CupRap sections,-290.0,0.01074575542660649
+k36,L2,CupRap sections,-270.0,0.009776126698602014
+k36,L2,CupRap sections,-250.0,0.0
+k36,L2,CupRap sections,-230.0,0.00853825136612022
+k36,L2,CupRap sections,-210.0,0.0
+k36,L2,CupRap sections,-190.0,0.021944261575597982
+k36,L2,CupRap sections,-170.0,0.013656538067599863
+k36,L2,CupRap sections,-150.0,0.025703637064644645
+k36,L2,CupRap sections,-130.0,0.025131942699170642
+k36,L2,CupRap sections,-110.0,0.012222697549349142
+k36,L2,CupRap sections,-90.0,0.012436264146250466
+k36,L2,CupRap sections,-70.0,0.04434870755195135
+k36,L2,CupRap sections,-50.0,0.014644504649630226
+k36,L2,CupRap sections,-30.0,0.0
+k36,L2,CupRap sections,-10.0,0.0
+k36,L2,CupRap sections,10.0,0.0
+k36,L2,CupRap sections,30.0,0.0
+k36,L2,CupRap sections,50.0,0.0
+k36,L2,CupRap sections,70.0,0.0
+k36,L2,CupRap sections,90.0,0.0
+k36,L2,CupRap sections,110.0,0.0
+k36,L2,CupRap sections,130.0,0.0
+k36,L2,CupRap sections,150.0,0.0
+k36,L2,CupRap sections,170.0,0.0
+k36,L2,CupRap sections,190.0,0.0
+k36,L2,CupRap sections,210.0,0.0
+k36,L2,CupRap sections,230.0,0.0
+k36,L2,CupRap sections,250.0,0.0
+k36,L2,CupRap sections,270.0,0.0
+k36,L2,CupRap sections,290.0,0.0
+k36,L3,CupRap sections,-290.0,0.01074575542660649
+k36,L3,CupRap sections,-270.0,0.029328380095806045
+k36,L3,CupRap sections,-250.0,0.009108297659167501
+k36,L3,CupRap sections,-230.0,0.03415300546448088
+k36,L3,CupRap sections,-210.0,0.0
+k36,L3,CupRap sections,-190.0,0.051203277009728626
+k36,L3,CupRap sections,-170.0,0.06828269033799932
+k36,L3,CupRap sections,-150.0,0.025703637064644645
+k36,L3,CupRap sections,-130.0,0.03769791404875597
+k36,L3,CupRap sections,-110.0,0.024445395098698284
+k36,L3,CupRap sections,-90.0,0.02487252829250093
+k36,L3,CupRap sections,-70.0,0.01900658895083629
+k36,L3,CupRap sections,-50.0,0.021966756974445337
+k36,L3,CupRap sections,-30.0,0.011788282447247436
+k36,L3,CupRap sections,-10.0,0.04068348250610252
+k36,L3,CupRap sections,10.0,0.0
+k36,L3,CupRap sections,30.0,0.0
+k36,L3,CupRap sections,50.0,0.0
+k36,L3,CupRap sections,70.0,0.0
+k36,L3,CupRap sections,90.0,0.0
+k36,L3,CupRap sections,110.0,0.0
+k36,L3,CupRap sections,130.0,0.0
+k36,L3,CupRap sections,150.0,0.0
+k36,L3,CupRap sections,170.0,0.0
+k36,L3,CupRap sections,190.0,0.0
+k36,L3,CupRap sections,210.0,0.0
+k36,L3,CupRap sections,230.0,0.0
+k36,L3,CupRap sections,250.0,0.0
+k36,L3,CupRap sections,270.0,0.0
+k36,L3,CupRap sections,290.0,0.0
+k36,L5,CupRap sections,-290.0,0.0
+k36,L5,CupRap sections,-270.0,0.0
+k36,L5,CupRap sections,-250.0,0.0
+k36,L5,CupRap sections,-230.0,0.0
+k36,L5,CupRap sections,-210.0,0.0
+k36,L5,CupRap sections,-190.0,0.0
+k36,L5,CupRap sections,-170.0,0.0
+k36,L5,CupRap sections,-150.0,0.006425909266161161
+k36,L5,CupRap sections,-130.0,0.0
+k36,L5,CupRap sections,-110.0,0.0
+k36,L5,CupRap sections,-90.0,0.0
+k36,L5,CupRap sections,-70.0,0.0
+k36,L5,CupRap sections,-50.0,0.0
+k36,L5,CupRap sections,-30.0,0.0
+k36,L5,CupRap sections,-10.0,0.0
+k36,L5,CupRap sections,10.0,0.0
+k36,L5,CupRap sections,30.0,0.0
+k36,L5,CupRap sections,50.0,0.0
+k36,L5,CupRap sections,70.0,0.0
+k36,L5,CupRap sections,90.0,0.0
+k36,L5,CupRap sections,110.0,0.0
+k36,L5,CupRap sections,130.0,0.0
+k36,L5,CupRap sections,150.0,0.0
+k36,L5,CupRap sections,170.0,0.0
+k36,L5,CupRap sections,190.0,0.0
+k36,L5,CupRap sections,210.0,0.0
+k36,L5,CupRap sections,230.0,0.0
+k36,L5,CupRap sections,250.0,0.0
+k36,L5,CupRap sections,270.0,0.0
+k36,L5,CupRap sections,290.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-290.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-270.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-250.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-230.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-210.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-190.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-170.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-150.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-130.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-110.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-90.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-70.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-50.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-30.0,0.0
+k36,L3 shuffled within territory,CupRap sections,-10.0,0.0
+k36,L3 shuffled within territory,CupRap sections,10.0,0.0
+k36,L3 shuffled within territory,CupRap sections,30.0,0.0
+k36,L3 shuffled within territory,CupRap sections,50.0,0.0
+k36,L3 shuffled within territory,CupRap sections,70.0,0.0
+k36,L3 shuffled within territory,CupRap sections,90.0,0.0
+k36,L3 shuffled within territory,CupRap sections,110.0,0.0
+k36,L3 shuffled within territory,CupRap sections,130.0,0.0
+k36,L3 shuffled within territory,CupRap sections,150.0,0.0
+k36,L3 shuffled within territory,CupRap sections,170.0,0.0
+k36,L3 shuffled within territory,CupRap sections,190.0,0.0
+k36,L3 shuffled within territory,CupRap sections,210.0,0.0
+k36,L3 shuffled within territory,CupRap sections,230.0,0.0
+k36,L3 shuffled within territory,CupRap sections,250.0,0.0
+k36,L3 shuffled within territory,CupRap sections,270.0,0.0
+k36,L3 shuffled within territory,CupRap sections,290.0,0.0
